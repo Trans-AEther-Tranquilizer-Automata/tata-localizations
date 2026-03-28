@@ -1,0 +1,23 @@
+{
+	"messages": {
+		"profileButtonLabel": "Profile",
+		"charactersButtonLabel": "Characters",
+		"noAccountFound": "No Account Found",
+		"noAccountDesc": "You need to add an account first using `/accounts`.",
+		"noShowcaseData": "No Showcase Data",
+		"failedToFetchShowcase": "Failed to fetch showcase data.",
+		"otherNoAccount": "{username} doesn't have an account linked.",
+		"authorityLevel": "Authority Level",
+		"files": "Files",
+		"repairLogics": "Repair Logics",
+		"treasureChests": "Treasure Chests",
+		"weapons": "Weapons",
+		"operators": "Operators",
+		"explorationLevel": "Exploration Level",
+		"pathOfGlory": "Path of Glory",
+		"controlNexusLevel": "Control Nexus Level",
+		"mainMission": "Main Mission",
+		"server": "Server",
+		"uid": "UID"
+	}
+}
