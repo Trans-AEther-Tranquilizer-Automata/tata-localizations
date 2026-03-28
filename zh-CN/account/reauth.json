@@ -1,0 +1,23 @@
+{
+	"messages": {
+		"noAccountsFound": "No Accounts Found",
+		"noAccountsDesc": "You don't have any accounts connected. Use `/accounts` to add one first.",
+		"title": "🔄 Re-authenticate Account",
+		"description": "Re-authentication allows you to update your account credentials without losing your bot data.\n\n**When to use this:**\n• Your token/credentials have expired\n• You changed your password on the game website\n• You're experiencing authentication errors\n\n**What it does:**\n• Updates your stored credentials\n• Keeps your daily claim settings\n• Preserves your notification preferences\n\nChoose your account below to re-authenticate:",
+		"accountsHeader": "**Your Connected Accounts:**",
+		"reAuthButtonLabel": "Re-auth {serverName}",
+		"methodChoiceTitle": "🔄 Choose Re-authentication Method",
+		"methodChoiceDesc": "**Email & Password (Recommended)**\nAutomatically fetches your credentials using your game account email and password.\n\n**Token Only**\nIf you have a fresh account token, you can provide it directly.",
+		"emailPasswordButtonLabel": "Reauth Via Login",
+		"tokenButtonLabel": "Reauth Using Token",
+		"emailPasswordModalTitle": "Re-authenticate with Email & Password",
+		"emailLabel": "Email",
+		"emailPlaceholder": "your@email.com",
+		"passwordLabel": "Password",
+		"passwordPlaceholder": "Your password",
+		"tokenModalTitle": "Re-authenticate with Token",
+		"tokenLabel": "Account Token",
+		"tokenPlaceholder": "Paste your account token here",
+		"error": "An error occurred while loading your accounts."
+	}
+}
