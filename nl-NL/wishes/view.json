@@ -1,10 +1,4 @@
 {
-	"command": {
-		"description": "View your Headhunting history",
-		"options": {
-			"user": "Check another user's wishes"
-		}
-	},
 	"rarityMenu": {
 		"placeholder": "Filter rarities",
 		"all": {
