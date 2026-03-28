@@ -1,0 +1,9 @@
+{
+	"messages": {
+		"title": "Event Timeline",
+		"description": "Current and upcoming events in Endfield",
+		"footer": "Yellow line indicates today • Courtesy of EndfieldTools.dev",
+		"noActiveEvents": "No active events found at the moment.",
+		"errorGenerating": "An error occurred while generating the timeline. Please try again later."
+	}
+}
