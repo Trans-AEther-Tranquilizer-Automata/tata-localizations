@@ -4,6 +4,8 @@
 		"noAccountDesc": "You need to add an account first using `/accounts`.",
 		"title": "Exploration",
 		"noRegions": "No regions unlocked yet.",
-		"noLevelsAvailable": "No levels available."
+		"noLevelsAvailable": "No levels available.",
+		"authorName": "{name}'s Exploration",
+		"failedToFetch": "Failed to fetch exploration data: \n```{error}```"
 	}
 }
