@@ -1,0 +1,74 @@
+{
+	"common": {
+		"unknownServer": "Unknown Server",
+		"unknownUid": "Unknown",
+		"noLinkedAccount": "No linked account",
+		"goBack": "Go Back"
+	},
+	"main": {
+		"title": "// Bot Settings",
+		"description": "Manage your personal bot settings.",
+		"userLine": "- **User**: <@{userId}>",
+		"languageLine": "- **Language**: `{language}`",
+		"linkedAccountLine": "- **Linked Account**: {linkedAccount}",
+		"languageHint": "Use the language menu below to update your preferred bot language.",
+		"privacyHint": "Open Privacy Settings to manage what other users can see.",
+		"comingSoon": "-# More settings options will be added in future updates.",
+		"noAccountFooter": "Link an account with /accounts to enable privacy and language saving.",
+		"privacyButton": "Privacy Settings"
+	},
+	"privacy": {
+		"title": "// Privacy Settings",
+		"description": "Configure what data is visible to other users.",
+		"uidLine": "- **UID Privacy**: `{state}`",
+		"uidDesc": "> Hide your UID from showing up anywhere",
+		"wishHistoryLine": "- **Headhunting History Privacy**: `{state}`",
+		"wishHistoryDesc": "> Hide your Headhunting history from showing up anywhere",
+		"statsLine": "- **Stats Privacy**: `{state}`",
+		"statsDesc": "> Hide your Endfield Stats progression from showing up",
+		"leaderboardLine": "- **Leaderboard Privacy**: `{state}`",
+		"leaderboardDesc": "> Hide your profile from public leaderboards",
+		"showcaseLine": "- **Character Showcase Privacy**: `{state}`",
+		"showcaseDesc": "> Hide your character showcase from other users",
+		"states": {
+			"public": "Public",
+			"hidden": "Hidden"
+		},
+		"buttons": {
+			"uid": "UID: {state}",
+			"wishHistory": "Headhunting History: {state}",
+			"stats": "Stats: {state}",
+			"leaderboard": "Leaderboard: {state}",
+			"showcase": "Showcase: {state}",
+			"enableAll": "Enable All Privacy",
+			"resetDefault": "Reset Default"
+		},
+		"noAccountFooter": "Link an account with /accounts to save privacy preferences."
+	},
+	"language": {
+		"fallback": "English (US)",
+		"placeholder": "Select bot language",
+		"options": {
+			"en-US": "English (US)",
+			"es-ES": "Spanish (Spain)",
+			"fr-FR": "French",
+			"id-ID": "Indonesian",
+			"it-IT": "Italian",
+			"ja-JP": "Japanese",
+			"ko-KR": "Korean",
+			"nl-NL": "Dutch",
+			"pt-BR": "Portuguese (Brazil)",
+			"ru-RU": "Russian",
+			"vi-VN": "Vietnamese",
+			"zh-CN": "Chinese (Simplified)",
+			"zh-TW": "Chinese (Traditional)"
+		}
+	},
+	"errors": {
+		"ownerOnly": "You can only use your own settings menu.",
+		"invalidView": "Invalid settings view.",
+		"invalidPrivacyKey": "Invalid privacy key.",
+		"invalidLanguage": "Invalid language selection.",
+		"accountNotFound": "No Account Found"
+	}
+}
