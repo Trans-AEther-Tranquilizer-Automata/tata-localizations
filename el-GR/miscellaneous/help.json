@@ -4,7 +4,6 @@
 	},
 	"general": {
 		"title": "Help",
-		"authorName": "Help",
 		"noCommands": "No commands available.",
 		"noDescription": "No description.",
 		"noCommandsInCategory": "No commands found for this category.",
