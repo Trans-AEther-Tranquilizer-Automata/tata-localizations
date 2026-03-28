@@ -1,0 +1,9 @@
+{
+	"messages": {
+		"notFound": "No enemy found for '{input}'",
+		"description": "Description",
+		"traits": "Traits",
+		"loot": "Loot",
+		"noDescription": "No description available."
+	}
+}
