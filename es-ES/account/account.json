@@ -1,9 +1,9 @@
 {
 	"command": {
-		"description": "Manage your Endfield accounts"
+		"description": "Administra tus cuentas de Endfield"
 	},
 	"common": {
-		"unknown": "Unknown",
+		"unknown": "Desconocido",
 		"unknownServer": "Unknown Server",
 		"goBack": "Go Back",
 		"errorLoadingAccounts": "An error occurred while loading your accounts.",
