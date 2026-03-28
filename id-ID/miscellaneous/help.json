@@ -1,7 +1,4 @@
 {
-	"command": {
-		"description": "Show available commands and categories"
-	},
 	"general": {
 		"title": "Help",
 		"noCommands": "No commands available.",
