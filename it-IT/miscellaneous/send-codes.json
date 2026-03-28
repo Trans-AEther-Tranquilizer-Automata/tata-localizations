@@ -1,0 +1,18 @@
+{
+	"messages": {
+		"title": "▼// Prepare Gift Codes Announcement",
+		"description": "Use the options below to prepare a message containing multiple gift codes. Once you're ready, click the Send Message button to post it in the selected channel.",
+		"channel": "Channel",
+		"role": "Role",
+		"notSelected": "*not selected*",
+		"none": "*none*",
+		"codes": "Codes ({count})",
+		"selectChannelPlaceholder": "Select target channel",
+		"addCodeButtonLabel": "Add Code",
+		"sendButtonLabel": "Send Message",
+		"cancelButtonLabel": "Cancel",
+		"addCodeModalTitle": "Add Gift Code",
+		"codeInputPlaceholder": "Enter gift code",
+		"enterCode": "Gift Code"
+	}
+}
