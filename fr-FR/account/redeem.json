@@ -15,6 +15,11 @@
 		"limitReached": "❌ Redemption limit reached for this code.",
 		"tooFrequent": "❌ You are redeeming too frequently. Please try again shortly.",
 		"confirmationRequired": "This code requires an additional confirmation flow and cannot be redeemed directly right now.",
-		"unknownError": "Failed to redeem this code due to an unknown error."
+		"unknownError": "Failed to redeem this code due to an unknown error.",
+		"redeemedTitle": "Code Redeemed",
+		"redeemedDesc": "{yesEmoji} Successfully redeemed `{code}` on **{serverName}**.",
+		"redeemFailedTitle": "Redeem Failed",
+		"errorTitle": "Error",
+		"errorDesc": "Failed to redeem code. Please try again later."
 	}
 }
