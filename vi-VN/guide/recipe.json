@@ -1,0 +1,11 @@
+{
+	"messages": {
+		"title": "Factory Recipe",
+		"notFound": "Item '{input}' not found",
+		"selectItemPlaceholder": "Search for item...",
+		"machineRequired": "Machine Required",
+		"craftTime": "Craft Time",
+		"ingredients": "Ingredients",
+		"noRecipe": "No recipe available for this item"
+	}
+}

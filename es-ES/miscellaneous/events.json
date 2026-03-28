@@ -1,0 +1,8 @@
+{
+	"messages": {
+		"footer": "Evento {page}/{totalPages}",
+		"noEvents": "No hay boletines de eventos disponibles en este momento.",
+		"fetchError": "Error al recuperar eventos: {error}",
+		"paginationError": "Error al cargar la página del evento."
+	}
+}

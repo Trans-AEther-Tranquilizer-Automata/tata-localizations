@@ -1,0 +1,25 @@
+{
+	"messages": {
+		"noAccountTitle": "{statusNo} No Account Found",
+		"noAccountDesc": "You need to add an account first using `/accounts`.",
+		"maxSanityTitle": "{statusYes} Sanity at Maximum",
+		"maxSanityDesc": "Your sanity is already at **{currentStamina}/{maxStamina}** ({staminaPercent}%). No reminders needed!",
+		"reminderPromptTitle": "{sanityEmoji} Sanity Reminder",
+		"reminderPromptDesc": "**Current Sanity:** {currentStamina}/{maxStamina} ({staminaPercent}%)\n\nSelect a preset or use `/sanity <amount>` for a custom reminder:",
+		"reminderPromptFooter": "You will receive a DM when your sanity reaches the selected amount",
+		"invalidAmountTitle": "{statusNo} Invalid Amount",
+		"invalidAmountDesc": "The target sanity ({targetStamina}) exceeds your maximum sanity ({maxStamina}).",
+		"alreadyReachedTitle": "{statusYes} Sanity Already Reached",
+		"alreadyReachedDesc": "Your current sanity is **{currentStamina}**, which is already at or above your target of **{targetStamina}**.",
+		"reminderSetTitle": "⏰ Sanity Reminder Set",
+		"reminderSetDesc": "You will be reminded when your sanity reaches **{targetStamina}** ({targetPercent}%).",
+		"currentStatusField": "📊 Current Status",
+		"currentStatusValue": "**Current Sanity:** {currentStamina}/{maxStamina} ({staminaPercent}%)\n**Sanity Needed:** {staminaNeeded}",
+		"timeUntilField": "⏱️ Time Until Reminder",
+		"timeUntilValue": "**Duration:** {duration}\n**Reminder At:** <t:{reminderAt}:F>",
+		"reminderSetFooter": "You will receive a DM when your sanity reaches the target amount",
+		"reminderSetFooterStamina": "You will receive a DM when your stamina reaches the target amount",
+		"failedSetReminder": "Failed to set reminder: \n```{errorMessage}```",
+		"failedSetReminderSimple": "Failed to set reminder: {errorMessage}"
+	}
+}

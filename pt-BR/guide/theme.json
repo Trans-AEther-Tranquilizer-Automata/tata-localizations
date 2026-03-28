@@ -1,0 +1,7 @@
+{
+	"messages": {
+		"notFound": "No profile theme found for '{input}'",
+		"selectThemePlaceholder": "Search for theme...",
+		"noDescription": "No description available."
+	}
+}

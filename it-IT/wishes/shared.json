@@ -1,0 +1,18 @@
+{
+	"messages": {
+		"title": "Headhunting History",
+		"overview": "Overview",
+		"stats": "Stats",
+		"totalWishes": "Total Wishes",
+		"totalGuaranteedPulls": "Total Guaranteed Pulls",
+		"selectBanner": "Select Banner",
+		"special": "Special",
+		"standard": "Standard",
+		"beginner": "Beginner",
+		"weapon": "Weapon",
+		"noData": "No Headhunting history data available",
+		"errorFetching": "Error fetching Headhunting history",
+		"previousPage": "Previous",
+		"nextPage": "Next"
+	}
+}

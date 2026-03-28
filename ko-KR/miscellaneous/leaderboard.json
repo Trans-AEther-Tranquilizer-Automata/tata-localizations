@@ -1,0 +1,19 @@
+{
+	"messages": {
+		"title": "🏆 Headhunting Leaderboard",
+		"selectMenuPlaceholder": "Select a leaderboard",
+		"wishesOption": {
+			"label": "Headhunting",
+			"description": "View Headhunting leaderboard",
+			"emoji": "🎯"
+		},
+		"rankFormat": "{rank}. {wishes} Headhunting | {username}",
+		"noEntriesDescription": "No entries found.",
+		"noDataDescription": "No leaderboard data available yet. Import your wishes to get started!",
+		"pagination": "Page {page}/{totalPages}",
+		"previousButton": "Previous",
+		"nextButton": "Next",
+		"errorTitle": "{statusNo} Error",
+		"errorDescription": "Failed to process command: {error}"
+	}
+}
