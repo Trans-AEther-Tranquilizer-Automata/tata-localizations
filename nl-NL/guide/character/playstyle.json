@@ -1,0 +1,8 @@
+{
+	"messages": {
+		"notFound": "Character '{input}' not found",
+		"selectCharacterPlaceholder": "Search for operator...",
+		"playstyle": "Playstyle",
+		"playstyleGuidance": "Playstyle Guidance"
+	}
+}
