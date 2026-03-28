@@ -16,7 +16,7 @@
 	},
 	"command": {
 		"title": "📅 Daily Sign-in | Endfield",
-		"descriptionTemplate": "Claim your daily sign-in rewards!\\n\\n**{notificationsLabel}:** `{notificationsStatus}`\\n**{autoClaimLabel}:** `{autoClaimStatus}`\\n**{progressLabel}:** {claimed}/{total} {daysLabel}\\n\\n**{calendarLabel}:**\\n{calendarRows}",
+		"descriptionTemplate": "Claim your daily sign-in rewards!\n\n**{notificationsLabel}:** `{notificationsStatus}`\n**{autoClaimLabel}:** `{autoClaimStatus}`\n**{progressLabel}:** {claimed}/{total} {daysLabel}\n\n**{calendarLabel}:**\n{calendarRows}",
 		"todayRewardField": "📦 Today's Reward",
 		"todayRewardValue": "**{name}** x{count}",
 		"claimButton": "Claim Daily Reward",
@@ -31,7 +31,7 @@
 	},
 	"notifications": {
 		"testTitle": "🎁 Daily Sign-In Reminder",
-		"testBody": "This is a test notification!\\n\\nYou would receive this notification when your daily sign-in reward is available.\\n\\nUse `/daily` to check and claim your rewards.",
+		"testBody": "This is a test notification!\n\nYou would receive this notification when your daily sign-in reward is available.\n\nUse `/daily` to check and claim your rewards.",
 		"sentTitle": "Test Notification Sent",
 		"sentBody": "Check your DMs for the test notification!",
 		"failedBody": "Failed to send test notification. Make sure your DMs are open."
