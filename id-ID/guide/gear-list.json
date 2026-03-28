@@ -1,0 +1,8 @@
+{
+	"messages": {
+		"title": "Endfield Gear List",
+		"noGear": "No gear data was returned from the source endpoint.",
+		"footer": "Total Gears: {count}",
+		"error": "Error fetching gear list"
+	}
+}
