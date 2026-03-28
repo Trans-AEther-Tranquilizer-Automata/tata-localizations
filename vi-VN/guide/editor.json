@@ -1,0 +1,14 @@
+{
+	"messages": {
+		"editorRoleRequired": "You need the Editor role to use this command",
+		"characterNotFound": "Character '{input}' not found",
+		"build": "Build",
+		"playstyle": "Playstyle",
+		"team": "Team",
+		"updateDate": "Update Date",
+		"editor": "Editor",
+		"building": "Character Guide | Build: {character}",
+		"playstyles": "Character Guide | Playstyle: {character}",
+		"teams": "Character Guide | Teams: {character}"
+	}
+}
