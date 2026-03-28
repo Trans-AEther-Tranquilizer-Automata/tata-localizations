@@ -1,9 +1,8 @@
 {
 	"messages": {
-		"eventTimeline": "Event Timeline",
-		"description": "Current and upcoming events in Endfield",
-		"footer": "Red line indicates today • Courtesy of EndfieldTools.dev",
-		"noActiveEvents": "No active events found at the moment.",
-		"errorGenerating": "An error occurred while generating the timeline. Please try again later."
+		"footer": "Event {page}/{totalPages}",
+		"noEvents": "No event bulletins are available right now.",
+		"fetchError": "Failed to fetch events: {error}",
+		"paginationError": "Failed to load event page."
 	}
 }
