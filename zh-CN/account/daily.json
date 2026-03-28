@@ -1,0 +1,26 @@
+{
+	"messages": {
+		"noAccountFound": "No Account Found",
+		"noAccountDesc": "You don't have an account linked. Please link your account first.",
+		"failedToFetchAttendance": "Failed to fetch attendance data. Please try again later.",
+		"title": "📅 Daily Sign-in | Endfield",
+		"notificationsLabel": "Notifications",
+		"autoClaimLabel": "Daily Auto-Claim",
+		"progressLabel": "Progress",
+		"calendarLabel": "Calendar",
+		"todaysRewardLabel": "📦 Today's Reward",
+		"claimButtonLabel": "Claim Daily Reward",
+		"toggleNotifButton": "🔔",
+		"toggleAutoClaimButton": "Disable/Enable",
+		"testNotifButton": "Test Notification",
+		"claimedTitle": "🎉 Daily Reward Claimed!",
+		"claimedDesc": "**Progress:** {completed}/{total} days completed",
+		"claimedTodayLabel": "Claimed Today",
+		"claimedNone": "None",
+		"tomorrowRewardLabel": "Tomorrow's Reward",
+		"tomorrowUnknown": "Unknown",
+		"claimedFooter": "Rewards will be sent to your in-game mail within 24 hours",
+		"errorTitle": "Error",
+		"errorDesc": "{message}"
+	}
+}
