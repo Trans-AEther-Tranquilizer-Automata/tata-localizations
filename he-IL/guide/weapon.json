@@ -1,0 +1,41 @@
+{
+	"command": {
+		"description": "Lookup Endfield weapons and show details",
+		"optionWeapon": "Weapon name, slug or select via autocomplete"
+	},
+	"fallback": {
+		"unknown": "Unknown",
+		"na": "N/A",
+		"dash": "—"
+	},
+	"card": {
+		"header": "# **{displayName}**\\n ### {rarityText} • {typeText}",
+		"statsHeader": "## Stats",
+		"maxLevel": "**Max Level**: {maxLevelText}",
+		"maxAttack": "**Max Lv ATK**: {maxAtkText}",
+		"effectsHeader": "## Effects",
+		"specialSkill": "**Special Skill**\\n{value}",
+		"passiveSkill": "**Passive Skill**\\n{value}",
+		"potentialSkill": "**Potential Skill**\\n{value}",
+		"talentPlaceholder": "Talent +{talentLevel}",
+		"talentLabel": "Talent +{value}",
+		"maxLevelNote": "-# Showing The Max Level For Passive/Special Skills.",
+		"ascensionHeader": "## Ascension Materials",
+		"upgradeSummary": "- Total Upgrade Exp: {exp}\\n- Total Upgrade Gold: {gold}",
+		"viewAscensionButton": "View Ascension Materials",
+		"externalButton": "View on EndfieldTools.dev"
+	},
+	"ascensionView": {
+		"header": "## Ascension Materials",
+		"backButton": "Back",
+		"mapButtonsNote": "-# These Buttons link to the interactive map showing where to gather\\n-# these materials if they are gatherable items.",
+		"materialCount": "{name} x{count}"
+	},
+	"errors": {
+		"sendCardFailed": "Failed to send Components V2 weapon card.",
+		"invalidTalentSelection": "Invalid talent selection.",
+		"invalidAscensionRequest": "Invalid ascension viewer request.",
+		"invalidRequest": "Invalid request.",
+		"restoreCardFailed": "Failed to restore weapon card."
+	}
+}
