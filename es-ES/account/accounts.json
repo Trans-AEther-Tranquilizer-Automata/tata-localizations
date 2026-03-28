@@ -1,26 +1,21 @@
 {
-	"messages": {
-		"accountManagementTitle": "📧 Account Management",
-		"yourConnectedAccount": "Your Connected Account:",
-		"accountLine": "🎮 {serverName}\n└ UID: `{uid}`",
+	"common": {
+		"unknown": "Desconocido",
+		"unknownServer": "Servidor desconocido",
+		"goBack": "Volver atrás",
+		"errorLoadingAccounts": "Ocurrió un error al vincular tu cuenta.",
+		"errorShowingLoginOptions": "Ocurrió un error mientras se mostraban las opciones de inicio de sesión.",
+		"errorShowingImportOptions": "Ocurrió un error mientras se mostraban las opciones de importación.",
+		"errorShowingMethodDetails": "An error occurred while showing method details."
+	},
+	"overview": {
+		"title": "📧 Account Management",
+		"singleAccountHeader": "**Your Connected Account:**\n\n",
+		"accountLine": "🎮 **{serverName}**\n└ UID: `{uid}`\n\n",
 		"maxAccountReached": "You have reached the maximum account limit (1 account).",
-		"noAccounts": "You don't have any accounts connected yet. Click the button below to add one.\n Be sure you connected your gryphline account on [skport.com](https://skport.com) to fetch your game accounts!",
+		"noAccounts": "You don't have any accounts connected yet. Click the button below to add one.\nBe sure you connected your gryphline account on [skport.com](https://skport.com) to fetch your game accounts!",
 		"footer": "You can link one game account (either Asia or EU/NA server)",
 		"addButton": "Add Account",
-		"removeButton": "Remove Account",
-		"linkAccountTitle": "Link Your Account",
-		"selectMethodLabel": "Login Method",
-		"selectMethodPlaceholder": "Choose login method",
-		"oauthMethodLabel": "OAuth",
-		"oauthMethodDescription": "Login via Gryphline/Gryphon (Secure)",
-		"emailMethodLabel": "Email & Password",
-		"emailMethodDescription": "Login with email and password",
-		"errorLoadingAccounts": "An error occurred while loading your accounts.",
-		"errorShowingLoginOptions": "An error occurred while showing login options.",
-		"errorShowingImportOptions": "An error occurred while showing import options.",
-		"errorShowingMethodDetails": "An error occurred while showing method details.",
-		"unknown": "Unknown",
-		"unknownServer": "Unknown Server",
-		"goBack": "Go Back"
+		"removeButton": "Remove Account"
 	}
 }
