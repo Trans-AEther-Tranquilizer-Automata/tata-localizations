@@ -1,0 +1,16 @@
+{
+	"messages": {
+		"yourUid": "Your Endfield UID",
+		"otherUid": "{username}'s Endfield UID",
+		"server": "Server",
+		"uid": "UID",
+		"hidden": "HIDDEN",
+		"copyButton": "Copy UID",
+		"noAccountFound": "No Account Found",
+		"noAccountDesc": "You need to add an account first using `/accounts`.",
+		"otherNoAccount": "{username} doesn't have an account linked.",
+		"error": "Error",
+		"errorDesc": "Failed to fetch UID: {error}",
+		"uidUnavailable": "UID unavailable"
+	}
+}
