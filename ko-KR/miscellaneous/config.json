@@ -1,0 +1,26 @@
+{
+	"messages": {
+		"title": "Server Configuration",
+		"description": "Manage server-level settings for Tata.",
+		"serverTimePanel": "Server Time Panel",
+		"channel": "Channel",
+		"enabled": "Enabled",
+		"disabled": "Disabled",
+		"none": "None",
+		"timePanelTitle": "Server Time Panel Configuration",
+		"timePanelDesc": "Select a channel and configure the server time panel.\n\n⚠️ The selected channel should be empty and Tata must be able to view the channel and create webhooks.",
+		"status": "Status",
+		"webhook": "Webhook",
+		"configured": "Configured",
+		"notConfigured": "Not Configured",
+		"customBanner": "Custom Banner",
+		"default": "Default",
+		"timePanelButton": "Time Panel",
+		"enableButton": "Enable",
+		"disableButton": "Disable",
+		"testWebhookButton": "Test Webhook",
+		"customBannerButton": "Custom Banner",
+		"backButton": "Back",
+		"selectChannelPlaceholder": "Select Channel"
+	}
+}
