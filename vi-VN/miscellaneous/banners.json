@@ -1,0 +1,11 @@
+{
+	"messages": {
+		"noBannersFound": "No active banners found.",
+		"headhuntingDetailsTitle": "Headhunting Details - {name}",
+		"limitedOfferTitle": "Limited-Time Offer Details - {name}",
+		"startDate": "Start Date",
+		"endDate": "End Date",
+		"ongoing": "Ongoing",
+		"errorFetching": "An error occurred while fetching banners."
+	}
+}
