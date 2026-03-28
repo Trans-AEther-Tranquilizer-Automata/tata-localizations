@@ -1,0 +1,9 @@
+{
+	"messages": {
+		"noAccountFound": "No Account Found",
+		"noAccountDesc": "You need to add an account first using `/accounts`.",
+		"title": "Exploration",
+		"noRegions": "No regions unlocked yet.",
+		"noLevelsAvailable": "No levels available."
+	}
+}
