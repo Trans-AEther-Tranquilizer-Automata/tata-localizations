@@ -1,0 +1,68 @@
+{
+	"command": {
+		"description": "View your Headhunting history",
+		"options": {
+			"user": "Check another user's wishes"
+		}
+	},
+	"rarityMenu": {
+		"placeholder": "Filter rarities",
+		"all": {
+			"label": "All Wishes",
+			"description": "Show all wish rarities"
+		},
+		"four": {
+			"label": "4 Stars",
+			"description": "Show only 4★ wishes"
+		},
+		"five": {
+			"label": "5 Stars",
+			"description": "Show only 5★ wishes"
+		},
+		"six": {
+			"label": "6 Stars",
+			"description": "Show only 6★ wishes"
+		}
+	},
+	"fallback": {
+		"unknown": "Unknown",
+		"none": "None",
+		"unknownError": "Unknown error"
+	},
+	"overview": {
+		"title": "Headhunting History Overview",
+		"statisticsName": "📊 Statistics",
+		"statisticsValue": "**Total Wishes:** `{totalWishes}`\\n**Total Cost:** `{totalCost}` {oroberylEmoji}\\n**5{rarity5Emoji} Items:** `{fiveStarCount}`\\n**6{rarity6Emoji} Items:** `{sixStarCount}`",
+		"achievementRatesName": "🏆 Achievement Rates",
+		"achievementRatesValue": "**5{rarity5Emoji} Rate:** `{fiveRate}%`\\n**6{rarity6Emoji} Rate:** `{sixRate}%`",
+		"currentPityName": "🎯 Current Pity",
+		"currentPityValue": "**5{rarity5Emoji} Current:** `{currentPity5}/10`\\n**5{rarity5Emoji} Average:** `{avgPity5}/10`\\n**6{rarity6Emoji} Current:** `{currentPity6}/80`\\n**6{rarity6Emoji} Average:** `{avgPity6}/80`",
+		"charactersName": "🎯 Characters",
+		"charactersValue": "**6{rarity6Emoji} Characters:** `{totalSixStarChars}`\\n**Latest:** {latestChar}\\n\\n**The Last 6{rarity6Emoji} Characters**\\n{lastFiveChars}",
+		"weaponsName": "⚔️ Weapons",
+		"weaponsValue": "**6{rarity6Emoji} Weapons:** `{totalSixStarWeapons}`\\n**Latest:** {latestWeapon}\\n\\n**The Last 6{rarity6Emoji} Weapons**\\n{lastFiveWeapons}",
+		"footer": "These statistics are subject to change"
+	},
+	"list": {
+		"title": "{bannerName} Wishes",
+		"empty": "No wishes found for this banner.",
+		"pityFree": "FREE",
+		"pity": "Pity: {value}",
+		"summary": "\\n\\nTotal: `{totalWishes}` Pulls • Cost: `{totalCost}` {oroberylEmoji}",
+		"footer": "Page {currentPage}/{totalPages}"
+	},
+	"errors": {
+		"noAccountTitle": "{statusNo} No Account Found",
+		"addAccountFirst": "You need to add an account first using `/accounts`.",
+		"noDataTitle": "{statusNo} No Headhunting Data Found",
+		"noDataSelf": "{username} you haven't imported your Headhunting data yet. Use `/wishes-import` to import your Headhunting data.",
+		"noDataOther": "{username} hasn't imported their Headhunting data yet.",
+		"noLinkedSelf": "{username} you don't have an account linked.",
+		"noLinkedOther": "{username} doesn't have an account linked.",
+		"accountNotFound": "Account not found.",
+		"genericTitle": "{statusNo} Error",
+		"processCommand": "Failed to process command: {error}",
+		"loadHeadhunting": "Failed to load headhunting data: {error}",
+		"loadWishes": "Failed to load wishes: {error}"
+	}
+}
