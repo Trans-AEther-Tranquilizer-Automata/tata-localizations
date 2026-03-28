@@ -9,13 +9,13 @@
 		"errorShowingMethodDetails": "An error occurred while showing method details."
 	},
 	"overview": {
-		"title": "📧 Account Management",
-		"singleAccountHeader": "**Your Connected Account:**\n\n",
-		"accountLine": "🎮 **{serverName}**\n└ UID: `{uid}`\n\n",
-		"maxAccountReached": "You have reached the maximum account limit (1 account).",
+		"title": "📧 Administración de cuentas",
+		"singleAccountHeader": "**Tu cuenta conectada:**\n\n",
+		"accountLine": "🎮 **{serverName}**\n└UID: `{uid}`\n\n",
+		"maxAccountReached": "Ha alcanzado el límite máximo de cuenta (1 cuenta).",
 		"noAccounts": "You don't have any accounts connected yet. Click the button below to add one.\nBe sure you connected your gryphline account on [skport.com](https://skport.com) to fetch your game accounts!",
-		"footer": "You can link one game account (either Asia or EU/NA server)",
-		"addButton": "Add Account",
-		"removeButton": "Remove Account"
+		"footer": "Puedes vincular una cuenta de juego (ya sea Asia o servidor EU/NA)",
+		"addButton": "Añadir cuenta",
+		"removeButton": "Remover Cuenta"
 	}
 }
