@@ -1,0 +1,20 @@
+{
+	"messages": {
+		"noAccountFound": "No Account Found",
+		"noAccountDesc": "You need to add an account first using `/accounts`.",
+		"missingToken": "Missing Token",
+		"missingTokenDesc": "Could not find a valid u8 token for your account. Please reauthorize with `/reauth`.",
+		"invalidCode": "❌ Invalid redemption code.",
+		"expiredCode": "❌ This code has expired.",
+		"alreadyUsed": "❌ This code has already been used.",
+		"notValidChannel": "❌ This code is not valid for your channel.",
+		"notValidPlatform": "❌ This code is not valid for your platform.",
+		"alreadyRedeemed": "❌ You have already redeemed this code.",
+		"notEligible": "❌ Your account/role is not eligible for this code.",
+		"doNotMeetRequirements": "❌ You do not meet the redemption requirements for this code.",
+		"limitReached": "❌ Redemption limit reached for this code.",
+		"tooFrequent": "❌ You are redeeming too frequently. Please try again shortly.",
+		"confirmationRequired": "This code requires an additional confirmation flow and cannot be redeemed directly right now.",
+		"unknownError": "Failed to redeem this code due to an unknown error."
+	}
+}
