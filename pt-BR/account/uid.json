@@ -10,6 +10,7 @@
 		"noAccountDesc": "You need to add an account first using `/accounts`.",
 		"otherNoAccount": "{username} doesn't have an account linked.",
 		"error": "Error",
-		"errorDesc": "Failed to fetch UID: {error}"
+		"errorDesc": "Failed to fetch UID: {error}",
+		"uidUnavailable": "UID unavailable"
 	}
 }
