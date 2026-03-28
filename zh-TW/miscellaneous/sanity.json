@@ -1,0 +1,16 @@
+{
+	"messages": {
+		"noAccountFound": "No Account Found",
+		"noAccountDesc": "You don't have an account linked. Please link your account first.",
+		"remindersTitle": "Sanity Reminders",
+		"remindersDesc": "You've set {count} reminder(s)",
+		"clearAllButton": "Clear All",
+		"addReminderButton": "Add Reminder",
+		"presetButtonLabel": "{emoji} {preset} • {time}",
+		"presetMaxLabel": "{emoji} {preset} (Max) • {time}",
+		"reminderAdded": "Reminder Set!",
+		"reminderAddedDesc": "You'll be reminded when your sanity reaches {amount}.",
+		"allRemindersCleared": "All Reminders Cleared",
+		"error": "Error"
+	}
+}
