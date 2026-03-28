@@ -1,0 +1,10 @@
+{
+	"messages": {
+		"notFound": "No gear found for '{input}'",
+		"selectGearPlaceholder": "Search for gear set...",
+		"setEffect": "Set Effect",
+		"stats": "Stats",
+		"rarity": "Rarity",
+		"noData": "Gear set data was not found."
+	}
+}
