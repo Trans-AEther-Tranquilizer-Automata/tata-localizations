@@ -3,7 +3,7 @@
 		"noBannersFound": "No active banners found.",
 		"headhuntingDetailsTitle": "Headhunting Details - {name}",
 		"limitedOfferTitle": "Limited-Time Offer Details - {name}",
-		"bannerWindow": "**{startDateLabel}**: <t:{startTimestamp}:F>\\n**{endDateLabel}**: {endValue}",
+		"bannerWindow": "**{startDateLabel}**: <t:{startTimestamp}:F>\n**{endDateLabel}**: {endValue}",
 		"startDate": "Start Date",
 		"endDate": "End Date",
 		"ongoing": "Ongoing",
