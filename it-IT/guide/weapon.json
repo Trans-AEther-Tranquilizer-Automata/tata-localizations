@@ -1,8 +1,4 @@
 {
-	"command": {
-		"description": "Lookup Endfield weapons and show details",
-		"optionWeapon": "Weapon name, slug or select via autocomplete"
-	},
 	"fallback": {
 		"unknown": "Unknown",
 		"na": "N/A",
