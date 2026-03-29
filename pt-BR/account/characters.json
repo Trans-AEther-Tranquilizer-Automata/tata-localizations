@@ -1,14 +1,4 @@
 {
-	"options": {
-		"user": {
-			"name": "user",
-			"description": "User to check"
-		},
-		"uid": {
-			"name": "uid",
-			"description": "Endfield UID to lookup"
-		}
-	},
 	"messages": {
 		"noAccountFound": "No Account Found",
 		"noAccountFoundDesc": "No account was found for that UID.",
