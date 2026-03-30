@@ -1,11 +1,11 @@
 {
 	"messages": {
-		"noAccountFound": "No Account Found",
-		"noAccountDesc": "You need to add an account first using `/accounts`.",
-		"title": "Exploration",
-		"noRegions": "No regions unlocked yet.",
-		"noLevelsAvailable": "No levels available.",
-		"authorName": "{name}'s Exploration",
-		"failedToFetch": "Failed to fetch exploration data: \n```{error}```"
+		"noAccountFound": "No se encontró ninguna cuenta",
+		"noAccountDesc": "Necesitas añadir primero una cuenta usando `/accounts`.",
+		"title": "Exploración",
+		"noRegions": "No hay regiones desbloqueadas aún.",
+		"noLevelsAvailable": "No hay niveles disponibles.",
+		"authorName": "Exploración de {name}",
+		"failedToFetch": "Error al obtener caracteres: \n```{error}```"
 	}
 }
