@@ -6,7 +6,7 @@
 		"errorLoadingAccounts": "Ocurrió un error al vincular tu cuenta.",
 		"errorShowingLoginOptions": "Ocurrió un error mientras se mostraban las opciones de inicio de sesión.",
 		"errorShowingImportOptions": "Ocurrió un error mientras se mostraban las opciones de importación.",
-		"errorShowingMethodDetails": "An error occurred while showing method details."
+		"errorShowingMethodDetails": "Se ha producido un error al mostrar los detalles del método."
 	},
 	"overview": {
 		"title": "📧 Administración de cuentas",
@@ -19,20 +19,20 @@
 		"removeButton": "Remover Cuenta"
 	},
 	"loginMethod": {
-		"title": "🔐 Select Login Method",
-		"description": "Choose how you want to authenticate:\n\n**Skport** - Full account linking with access to all features\n**Headhunting History** - Import only your wish history and basic account info",
+		"title": "🔐 Seleccionar método de acceso",
+		"description": "Elige cómo quieres autenticar:\n\n**Skport** - Cuenta completa vinculada con el acceso a todas las características\n**Historial de cacería** - Importar solo tu historial de deseos e información básica de tu cuenta",
 		"skportButton": "Skport",
-		"headhuntingButton": "Headhunting History"
+		"headhuntingButton": "Historial de cacería"
 	},
 	"skport": {
-		"title": "🔗 Link Your Skport Account",
-		"description": "By linking your Skport account, you'll get access to:\n\n1. **Access to your ingame information in real time**\n2. **Access to your ingame spaceship information**\n3. **Ability to claim your Daily Check-in rewards from discord**\n4. **Access your Headhunting History Straight from your account**\n\nChoose your preferred registration method:",
-		"registerViaLogin": "Register Via Login",
-		"registerUsingToken": "Register Using Token"
+		"title": "🔗 Vincula tu cuenta de Skport",
+		"description": "Al vincular tu cuenta Skport, obtendrás acceso a:\n\n1. **Accede a la información de tu juego en tiempo real**\n2. **Accede a la información de tu nave espacial**\n3. **Capacidad para reclamar tus recompensas de Check-in diarias de discord**\n4. **Accede a tu historial de búsqueda de cabezas desde tu cuenta**\n\nElige tu método de registro preferido:",
+		"registerViaLogin": "Registrarse a través",
+		"registerUsingToken": "Registrarse usando Token"
 	},
 	"wishHistory": {
-		"title": "🎯 Headhunting History Import",
-		"description": "**Only your Headhunting History will be imported.** Basic information from your account will be available.\n\nChoose your platform to get started:",
+		"title": "🎯 Importación del Historial de Búsqueda de Cabezas",
+		"description": "**Solo se importará tu historial de cacería.** La información básica de tu cuenta estará disponible.\n\nElige tu plataforma para empezar:",
 		"platform": {
 			"windows": "Windows",
 			"linux": "Linux",
@@ -42,56 +42,56 @@
 	},
 	"modals": {
 		"emailPassword": {
-			"title": "Login with Email & Password",
-			"emailLabel": "Email Address",
-			"emailPlaceholder": "your-email@gmail.com (will be encrypted)",
-			"passwordLabel": "Password",
-			"passwordPlaceholder": "Your password (will be encrypted)"
+			"title": "Iniciar sesión con email y contraseña",
+			"emailLabel": "Dirección de email",
+			"emailPlaceholder": "tu-email@gmail.com (será cifrado)",
+			"passwordLabel": "Contraseña",
+			"passwordPlaceholder": "Su contraseña (será cifrada)"
 		},
 		"enterLink": {
-			"title": "Enter Headhunting History Link - {platform}",
-			"label": "Paste your link here",
+			"title": "Entra en el enlace Historial de Búsqueda de Cabeceras - {platform}",
+			"label": "Pega aquí tu enlace",
 			"placeholder": "https://ef-webview.gryphline.com/page/gacha_char?pool_id=special_1_0_3&u8_token=...&platform=...&..."
 		},
 		"tokenOnly": {
-			"title": "Login with Account Token",
-			"tokenLabel": "Account Token",
-			"tokenPlaceholder": "Paste your account token here..."
+			"title": "Iniciar sesión con el token de cuenta",
+			"tokenLabel": "Token de la cuenta",
+			"tokenPlaceholder": "Pegue su token aquí..."
 		}
 	},
 	"tokenInstructions": {
-		"title": "🔑 How to Get Your Account Token",
-		"description": "> To begin login to your skport account\nhttps://www.skport.com/\n\n> Once logged in open the dev tools using F12 on your keyboard\n\n> On the tabs, select the one that says Application tab or storage tab on specific browsers\n\n> On the left hand side, select cookies and click on the website to view all your site cookies\n\n> Then click on the one that says ACCOUNT_TOKEN and click on the bottom show URL decoded and then copy the token",
-		"pasteButton": "Paste Token"
+		"title": "🔑 Cómo obtener tu token de cuenta",
+		"description": "> Para iniciar sesión en tu cuenta de skport\nhttps://www.skport. om/\n\n> Una vez iniciado sesión, abra las herramientas de desarrollo usando F12 en su teclado\n\n> En las pestañas, seleccione la que dice la pestaña Aplicación o la pestaña de almacenamiento en navegadores específicos\n\n> En el lado izquierdo, seleccione cookies y haga clic en el sitio web para ver todas las cookies de su sitio\n\n> Luego haga clic en la que dice ACCOUNT_TOKEN y haga clic en la URL inferior que se muestra decodificada y luego copie el token",
+		"pasteButton": "Pegar token"
 	},
 	"platform": {
 		"methodTitle": "📋 {method} Method - {platform}",
-		"sourceFooter": "Source: Endfieldtools.dev",
+		"sourceFooter": "Fuente: Endfieldtools.dev",
 		"button": {
 			"pc": "PC",
 			"pc2": "PC 2",
 			"pc3": "PC 3",
 			"pcManual": "PC Manual",
-			"enterLink": "Enter Link:"
+			"enterLink": "Introduce el enlace:"
 		}
 	},
 	"serverSelection": {
-		"title": "🎮 Select Server",
-		"description": "Choose which game account you want to link:",
-		"placeholder": "Choose your game account...",
-		"optionDescription": "UID: {uid} | Level {level}"
+		"title": "🎮 Seleccionar Servidor",
+		"description": "Elige qué cuenta de juego quieres enlazar:",
+		"placeholder": "Elige tu cuenta de juego...",
+		"optionDescription": "UID: {uid} | Nivel {level}"
 	},
 	"accountAdded": {
-		"title": "{statusYes} Account Added Successfully",
-		"description": "**Server:** {serverName}\n**UID:** `{uid}`\n\n🔒 Your credentials are stored securely and encrypted.{extra}",
+		"title": "{statusYes} Cuenta añadida correctamente",
+		"description": "**Servidor:** {serverName}\n**UID:** `{uid}`\n\n🔒 Tus credenciales se almacenan de forma segura y encriptadas.{extra}",
 		"autoImportNote": "\n\n🎯 Your Headhunting History is being imported automatically."
 	},
 	"remove": {
-		"selectDisconnectTitle": "🔌 Select Account to Disconnect",
-		"selectDeleteTitle": "🗑️ Select Account to Delete",
-		"selectDisconnectDescription": "Choose which account to disconnect (credentials will be removed, settings kept):",
-		"selectDeleteDescription": "Choose which account to delete completely:",
-		"selectPlaceholder": "Choose account...",
+		"selectDisconnectTitle": "🔌 Seleccionar cuenta para desconectar",
+		"selectDeleteTitle": "🗑️ Seleccione la cuenta a eliminar",
+		"selectDisconnectDescription": "Elegir qué cuenta desconectar (se eliminarán las credenciales y los ajustes):",
+		"selectDeleteDescription": "Elija qué cuenta borrar completamente:",
+		"selectPlaceholder": "Remover Cuenta...",
 		"optionDescription": "UID: {uid}",
 		"disconnectedTitle": "{statusYes} Account Disconnected",
 		"disconnectedDescription": "Your account credentials have been removed.\n\n**✨ Preserved:**\n• Daily claim settings\n• Notification preferences\n• Account configuration\n\n**🔄 To reconnect:** Use `/reauth` to add your credentials back!",
