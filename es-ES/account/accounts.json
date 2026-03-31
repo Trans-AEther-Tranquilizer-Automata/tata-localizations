@@ -1,21 +1,123 @@
 {
-	"common": {
-		"unknown": "Desconocido",
-		"unknownServer": "Servidor desconocido",
-		"goBack": "Volver atrás",
-		"errorLoadingAccounts": "Ocurrió un error al vincular tu cuenta.",
-		"errorShowingLoginOptions": "Ocurrió un error mientras se mostraban las opciones de inicio de sesión.",
-		"errorShowingImportOptions": "Ocurrió un error mientras se mostraban las opciones de importación.",
-		"errorShowingMethodDetails": "An error occurred while showing method details."
-	},
 	"overview": {
-		"title": "📧 Administración de cuentas",
+		"title": "{emailEmoji} Account Management",
 		"singleAccountHeader": "**Tu cuenta conectada:**\n\n",
-		"accountLine": "🎮 **{serverName}**\n└UID: `{uid}`\n\n",
+		"accountLine": "{gamepadEmoji} **{serverName}**\n└ UID: `{uid}`\n\n",
 		"maxAccountReached": "Ha alcanzado el límite máximo de cuenta (1 cuenta).",
 		"noAccounts": "You don't have any accounts connected yet. Click the button below to add one.\nBe sure you connected your gryphline account on [skport.com](https://skport.com) to fetch your game accounts!",
 		"footer": "Puedes vincular una cuenta de juego (ya sea Asia o servidor EU/NA)",
 		"addButton": "Añadir cuenta",
 		"removeButton": "Remover Cuenta"
+	},
+	"loginMethod": {
+		"title": "{lockEmoji} Select Login Method",
+		"description": "Elige cómo quieres autenticar:\n\n**Skport** - Cuenta completa vinculada con el acceso a todas las características\n**Historial de cacería** - Importar solo tu historial de deseos e información básica de tu cuenta",
+		"skportButton": "Skport",
+		"headhuntingButton": "Historial de cacería"
+	},
+	"skport": {
+		"title": "{linkEmoji} Link Your Skport Account",
+		"description": "Al vincular tu cuenta Skport, obtendrás acceso a:\n\n1. **Accede a la información de tu juego en tiempo real**\n2. **Accede a la información de tu nave espacial**\n3. **Capacidad para reclamar tus recompensas de Check-in diarias de discord**\n4. **Accede a tu historial de búsqueda de cabezas desde tu cuenta**\n\nElige tu método de registro preferido:",
+		"registerViaLogin": "Registrarse a través",
+		"registerUsingToken": "Registrarse usando Token"
+	},
+	"wishHistory": {
+		"title": "{targetEmoji} Headhunting History Import",
+		"description": "**Solo se importará tu historial de cacería.** La información básica de tu cuenta estará disponible.\n\nElige tu plataforma para empezar:",
+		"platform": {
+			"windows": "Windows",
+			"linux": "Linux",
+			"android": "Android",
+			"ios": "iOS"
+		}
+	},
+	"modals": {
+		"emailPassword": {
+			"title": "Iniciar sesión con email y contraseña",
+			"emailLabel": "Dirección de email",
+			"emailPlaceholder": "tu-email@gmail.com (será cifrado)",
+			"passwordLabel": "Contraseña",
+			"passwordPlaceholder": "Su contraseña (será cifrada)"
+		},
+		"enterLink": {
+			"title": "Entra en el enlace Historial de Búsqueda de Cabeceras - {platform}",
+			"label": "Pega aquí tu enlace",
+			"placeholder": "https://ef-webview.gryphline.com/page/gacha_char?pool_id=special_1_0_3&u8_token=...&platform=...&..."
+		},
+		"tokenOnly": {
+			"title": "Iniciar sesión con el token de cuenta",
+			"tokenLabel": "Token de la cuenta",
+			"tokenPlaceholder": "Pegue su token aquí..."
+		}
+	},
+	"tokenInstructions": {
+		"title": "{keyEmoji} How to Get Your Account Token",
+		"description": "> Para iniciar sesión en tu cuenta de skport\nhttps://www.skport. om/\n\n> Una vez iniciado sesión, abra las herramientas de desarrollo usando F12 en su teclado\n\n> En las pestañas, seleccione la que dice la pestaña Aplicación o la pestaña de almacenamiento en navegadores específicos\n\n> En el lado izquierdo, seleccione cookies y haga clic en el sitio web para ver todas las cookies de su sitio\n\n> Luego haga clic en la que dice ACCOUNT_TOKEN y haga clic en la URL inferior que se muestra decodificada y luego copie el token",
+		"pasteButton": "Pegar token"
+	},
+	"platform": {
+		"methodTitle": "{clipboardEmoji} {method} Method - {platform}",
+		"sourceFooter": "Fuente: Endfieldtools.dev",
+		"button": {
+			"pc": "PC",
+			"pc2": "PC 2",
+			"pc3": "PC 3",
+			"pcManual": "PC Manual",
+			"enterLink": "Introduce el enlace:"
+		}
+	},
+	"serverSelection": {
+		"title": "{gamepadEmoji} Select Server",
+		"description": "Elige qué cuenta de juego quieres enlazar:",
+		"placeholder": "Elige tu cuenta de juego...",
+		"optionDescription": "UID: {uid} | Nivel {level}"
+	},
+	"accountAdded": {
+		"title": "{statusYes} Cuenta añadida correctamente",
+		"description": "**Server:** {serverName}\n**UID:** `{uid}`\n\n{lockEmoji} Your credentials are stored securely and encrypted.{extra}",
+		"autoImportNote": "\n\n{targetEmoji} Your Headhunting History is being imported automatically."
+	},
+	"remove": {
+		"selectDisconnectTitle": "{plugEmoji} Select Account to Disconnect",
+		"selectDeleteTitle": "{trashEmoji} Select Account to Delete",
+		"selectDisconnectDescription": "Elegir qué cuenta desconectar (se eliminarán las credenciales y los ajustes):",
+		"selectDeleteDescription": "Elija qué cuenta borrar completamente:",
+		"selectPlaceholder": "Remover Cuenta...",
+		"optionDescription": "UID: {uid}",
+		"disconnectedTitle": "{statusYes} Account Disconnected",
+		"disconnectedDescription": "Your account credentials have been removed.\n\n**{sparkleEmoji} Preserved:**\n• Daily claim settings\n• Notification preferences\n• Account configuration\n\n**{refreshEmoji} To reconnect:** Use `/reauth` to add your credentials back!",
+		"disconnectError": "An error occurred while disconnecting your account.",
+		"deletedTitle": "{trashEmoji} Account Deleted",
+		"deletedDescription": "Your account has been completely removed from this bot.\n\n**{trashEmoji} Deleted:**\n• All credentials\n• Daily claim settings\n• Notification preferences\n• All account data\n\n**Note:** Your game account on the servers is unchanged.\nUse `/accounts` to add it again if needed.",
+		"deleteError": "An error occurred while deleting your account.",
+		"noAccountsTitle": "{statusNo} No Accounts",
+		"noAccountsDescription": "You don't have any accounts to remove.",
+		"chooseActionTitle": "{plugEmoji} Disconnect or Delete Account",
+		"chooseActionDescription": "Choose how you want to handle your account:\n\n**{plugEmoji} Disconnect** - Remove credentials only\n• Keeps your daily claim settings\n• Keeps notification preferences\n• Can reconnect later with `/reauth`\n\n**{trashEmoji} Delete** - Complete removal\n• Deletes all bot data\n• Removes all settings\n• Must use `/accounts` to add again",
+		"chooseActionPlaceholder": "Choose an action...",
+		"disconnectOptionLabel": "Disconnect Account",
+		"disconnectOptionDescription": "Remove credentials, keep settings",
+		"deleteOptionLabel": "Delete Account",
+		"deleteOptionDescription": "Complete removal of all data"
+	},
+	"errors": {
+		"genericTitle": "Error",
+		"showImportOptionsFailed": "An error occurred while showing import options.",
+		"showMethodDetailsFailed": "An error occurred while showing method details.",
+		"invalidLinkTitle": "Invalid Link",
+		"invalidLinkTokenMissing": "Could not find Token in the provided link.",
+		"noAccountsFoundTitle": "No Accounts Found",
+		"noAccountsFoundDesc": "No game accounts found linked to this account.",
+		"noEndfieldAccountsTitle": "No Endfield Accounts",
+		"noEndfieldAccountsDesc": "No Endfield game accounts found.",
+		"linkProcessFailed": "An error occurred while processing your link.",
+		"invalidUrl": "The provided link is not a valid URL.",
+		"invalidSelection": "Invalid selection.",
+		"invalidSelectionFormat": "Invalid selection format.",
+		"sessionExpiredTitle": "Session Expired",
+		"sessionExpired": "Authentication session expired. Please start over.",
+		"fetchGameAccounts": "Failed to fetch game accounts",
+		"fetchGameAccountsWithReason": "Failed to fetch game accounts: {error}",
+		"addAccountFailed": "An error occurred while adding your account."
 	}
 }

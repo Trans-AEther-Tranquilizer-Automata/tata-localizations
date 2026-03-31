@@ -1,0 +1,105 @@
+{
+	"sections": {
+		"guide": {
+			"label": "Introduction",
+			"description": "Character overview and basics"
+		},
+		"build": {
+			"label": "Build",
+			"description": "Growth and upgrade progression"
+		},
+		"team": {
+			"label": "Team",
+			"description": "Suggested role and team fit"
+		},
+		"skills": {
+			"label": "Skills",
+			"description": "Combat and base skill overview"
+		},
+		"potential": {
+			"label": "Potential",
+			"description": "Potential levels and effects"
+		},
+		"talents": {
+			"label": "Talents",
+			"description": "Talent nodes and unlock data"
+		},
+		"playstyle": {
+			"label": "Playstyle",
+			"description": "How the operator is intended to play"
+		}
+	},
+	"messages": {
+		"switchGuideSection": "Switch guide section",
+		"characterDescription": "Character Description",
+		"noDescriptionAvailable": "No description available yet.",
+		"rarity": "Rarity",
+		"weaponClass": "Weapon Class",
+		"element": "Element",
+		"class": "Class",
+		"mainAttribute": "Main Attribute",
+		"subAttribute": "Sub Attribute",
+		"unknown": "Unknown",
+		"noCombatSkillGroupData": "No combat skill group data found for this operator.",
+		"unnamedSkill": "Unnamed skill",
+		"noPotentialUnlockData": "No potential unlock data found for this operator.",
+		"unnamedPotential": "Unnamed potential",
+		"noTalentNodeData": "No talent node data found for this operator.",
+		"unlockedByDefault": "Unlocked by default",
+		"promoteToUnlock": "Promote to E{stage} to unlock",
+		"promoteToActivate": "Promote to E{stage} to activate the upgraded effect",
+		"unnamedTalent": "Unnamed talent",
+		"noTalentEffectDescription": "No talent effect description found.",
+		"teamsSuffix": "Teams",
+		"buildButtonLabel": "Build {index}",
+		"updateDate": "Update Date",
+		"noSectionData": "No section data available.",
+		"selectedCharacterNotFound": "The selected character could not be found in operators index.",
+		"unknownOperator": "Unknown Operator",
+		"teamCompositionsFor": "Team Compositions for {name}",
+		"warfarinButton": "Warfarin",
+		"suggestChangesButton": "Suggest Changes",
+		"noCharacterFound": "No character found for \"{input}\".",
+		"joinServerButton": "Join Server",
+		"suggestChangesTitle": "Suggest Changes",
+		"suggestChangesDescription": "Found outdated or incorrect guide information? [Suggest changes here]({suggestUrl}).\n\nJoin our Discord server: [Invite Link]({serverUrl})"
+	},
+	"mappings": {
+		"weaponType": {
+			"sword": "Sword",
+			"artsUnit": "Arts Unit",
+			"greatsword": "Greatsword",
+			"polearm": "Polearm",
+			"handcannons": "Handcannons"
+		},
+		"element": {
+			"cryst": "Cryo",
+			"fire": "Heat",
+			"natural": "Nature",
+			"physical": "Physical",
+			"pulse": "Electric"
+		},
+		"profession": {
+			"guard": "Guard",
+			"defender": "Defender",
+			"support": "Support",
+			"caster": "Caster",
+			"vanguard": "Vanguard",
+			"striker": "Striker"
+		},
+		"attributeType": {
+			"baseHp": "Base HP",
+			"def": "DEF",
+			"criticalRate": "Critical Rate",
+			"normalAttackDamageIncrease": "Normal Attack Damage Increase",
+			"healingBonus": "Healing Bonus",
+			"strength": "Strength",
+			"agility": "Agility",
+			"intellect": "Intellect",
+			"will": "Will",
+			"physicalDamageIncrease": "Physical Damage Increase",
+			"electricDamageIncrease": "Electric Damage Increase",
+			"cryoDamageIncrease": "Cryo Damage Increase"
+		}
+	}
+}

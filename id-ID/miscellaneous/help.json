@@ -8,8 +8,7 @@
 	},
 	"overview": {
 		"title": "Help Overview",
-		"description": "Select a category from the dropdown to view specific commands for that category.\n\n**Available categories:**\n{overviewList}\n\nUse the pagination buttons when present to navigate long lists.",
-		"emptyCategoryList": "(none)",
+		"description": "Select a category from the dropdown to view specific commands for that category.\\n\\n**Available categories:**\\n{overviewList}\\n\\nUse the pagination buttons when present to navigate long lists.",
 		"footer": "Total categories: {count}"
 	},
 	"select": {

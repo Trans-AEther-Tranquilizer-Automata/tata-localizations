@@ -1,21 +1,123 @@
 {
-	"common": {
-		"unknown": "Unknown",
-		"unknownServer": "Unknown Server",
-		"goBack": "Go Back",
-		"errorLoadingAccounts": "An error occurred while loading your accounts.",
-		"errorShowingLoginOptions": "An error occurred while showing login options.",
-		"errorShowingImportOptions": "An error occurred while showing import options.",
-		"errorShowingMethodDetails": "An error occurred while showing method details."
-	},
 	"overview": {
-		"title": "📧 Account Management",
-		"singleAccountHeader": "**Your Connected Account:**\n\n",
-		"accountLine": "🎮 **{serverName}**\n└ UID: `{uid}`\n\n",
-		"maxAccountReached": "You have reached the maximum account limit (1 account).",
-		"noAccounts": "You don't have any accounts connected yet. Click the button below to add one.\nBe sure you connected your gryphline account on [skport.com](https://skport.com) to fetch your game accounts!",
-		"footer": "You can link one game account (either Asia or EU/NA server)",
-		"addButton": "Add Account",
-		"removeButton": "Remove Account"
+		"title": "{emailEmoji} Account Management",
+		"singleAccountHeader": "**Sua Conta Conectada: **",
+		"accountLine": "{gamepadEmoji} **{serverName}**\n└ UID: `{uid}`\n\n",
+		"maxAccountReached": "Você atingiu o limite máximo de contas (1 conta).",
+		"noAccounts": "Você ainda não tem nenhuma conta conectada. Clique no botão abaixo para adicionar uma.\nCertifique-se de que conectou sua conta gryphline em [skport.com](https://skport.com) para buscar suas contas!",
+		"footer": "Você pode vincular uma conta de jogo (servidor Ásia ou EU/NA)",
+		"addButton": "Adicionar Conta",
+		"removeButton": "Remover Conta"
+	},
+	"loginMethod": {
+		"title": "{lockEmoji} Select Login Method",
+		"description": "Choose how you want to authenticate:\n\n**Skport** - Full account linking with access to all features\n**Headhunting History** - Import only your wish history and basic account info",
+		"skportButton": "Skport",
+		"headhuntingButton": "Headhunting History"
+	},
+	"skport": {
+		"title": "{linkEmoji} Link Your Skport Account",
+		"description": "By linking your Skport account, you'll get access to:\n\n1. **Access to your ingame information in real time**\n2. **Access to your ingame spaceship information**\n3. **Ability to claim your Daily Check-in rewards from discord**\n4. **Access your Headhunting History Straight from your account**\n\nChoose your preferred registration method:",
+		"registerViaLogin": "Register Via Login",
+		"registerUsingToken": "Register Using Token"
+	},
+	"wishHistory": {
+		"title": "{targetEmoji} Headhunting History Import",
+		"description": "**Only your Headhunting History will be imported.** Basic information from your account will be available.\n\nChoose your platform to get started:",
+		"platform": {
+			"windows": "Windows",
+			"linux": "Linux",
+			"android": "Android",
+			"ios": "iOS"
+		}
+	},
+	"modals": {
+		"emailPassword": {
+			"title": "Login with Email & Password",
+			"emailLabel": "Email Address",
+			"emailPlaceholder": "your-email@gmail.com (will be encrypted)",
+			"passwordLabel": "Password",
+			"passwordPlaceholder": "Your password (will be encrypted)"
+		},
+		"enterLink": {
+			"title": "Enter Headhunting History Link - {platform}",
+			"label": "Paste your link here",
+			"placeholder": "https://ef-webview.gryphline.com/page/gacha_char?pool_id=special_1_0_3&u8_token=...&platform=...&..."
+		},
+		"tokenOnly": {
+			"title": "Login with Account Token",
+			"tokenLabel": "Account Token",
+			"tokenPlaceholder": "Paste your account token here..."
+		}
+	},
+	"tokenInstructions": {
+		"title": "{keyEmoji} How to Get Your Account Token",
+		"description": "> To begin login to your skport account\nhttps://www.skport.com/\n\n> Once logged in open the dev tools using F12 on your keyboard\n\n> On the tabs, select the one that says Application tab or storage tab on specific browsers\n\n> On the left hand side, select cookies and click on the website to view all your site cookies\n\n> Then click on the one that says ACCOUNT_TOKEN and click on the bottom show URL decoded and then copy the token",
+		"pasteButton": "Paste Token"
+	},
+	"platform": {
+		"methodTitle": "{clipboardEmoji} {method} Method - {platform}",
+		"sourceFooter": "Source: Endfieldtools.dev",
+		"button": {
+			"pc": "PC",
+			"pc2": "PC 2",
+			"pc3": "PC 3",
+			"pcManual": "PC Manual",
+			"enterLink": "Enter Link:"
+		}
+	},
+	"serverSelection": {
+		"title": "{gamepadEmoji} Select Server",
+		"description": "Choose which game account you want to link:",
+		"placeholder": "Choose your game account...",
+		"optionDescription": "UID: {uid} | Level {level}"
+	},
+	"accountAdded": {
+		"title": "{statusYes} Account Added Successfully",
+		"description": "**Server:** {serverName}\n**UID:** `{uid}`\n\n{lockEmoji} Your credentials are stored securely and encrypted.{extra}",
+		"autoImportNote": "\n\n{targetEmoji} Your Headhunting History is being imported automatically."
+	},
+	"remove": {
+		"selectDisconnectTitle": "{plugEmoji} Select Account to Disconnect",
+		"selectDeleteTitle": "{trashEmoji} Select Account to Delete",
+		"selectDisconnectDescription": "Choose which account to disconnect (credentials will be removed, settings kept):",
+		"selectDeleteDescription": "Choose which account to delete completely:",
+		"selectPlaceholder": "Choose account...",
+		"optionDescription": "UID: {uid}",
+		"disconnectedTitle": "{statusYes} Account Disconnected",
+		"disconnectedDescription": "Your account credentials have been removed.\n\n**{sparkleEmoji} Preserved:**\n• Daily claim settings\n• Notification preferences\n• Account configuration\n\n**{refreshEmoji} To reconnect:** Use `/reauth` to add your credentials back!",
+		"disconnectError": "An error occurred while disconnecting your account.",
+		"deletedTitle": "{trashEmoji} Account Deleted",
+		"deletedDescription": "Your account has been completely removed from this bot.\n\n**{trashEmoji} Deleted:**\n• All credentials\n• Daily claim settings\n• Notification preferences\n• All account data\n\n**Note:** Your game account on the servers is unchanged.\nUse `/accounts` to add it again if needed.",
+		"deleteError": "An error occurred while deleting your account.",
+		"noAccountsTitle": "{statusNo} No Accounts",
+		"noAccountsDescription": "You don't have any accounts to remove.",
+		"chooseActionTitle": "{plugEmoji} Disconnect or Delete Account",
+		"chooseActionDescription": "Choose how you want to handle your account:\n\n**{plugEmoji} Disconnect** - Remove credentials only\n• Keeps your daily claim settings\n• Keeps notification preferences\n• Can reconnect later with `/reauth`\n\n**{trashEmoji} Delete** - Complete removal\n• Deletes all bot data\n• Removes all settings\n• Must use `/accounts` to add again",
+		"chooseActionPlaceholder": "Choose an action...",
+		"disconnectOptionLabel": "Disconnect Account",
+		"disconnectOptionDescription": "Remove credentials, keep settings",
+		"deleteOptionLabel": "Delete Account",
+		"deleteOptionDescription": "Complete removal of all data"
+	},
+	"errors": {
+		"genericTitle": "Error",
+		"showImportOptionsFailed": "An error occurred while showing import options.",
+		"showMethodDetailsFailed": "An error occurred while showing method details.",
+		"invalidLinkTitle": "Invalid Link",
+		"invalidLinkTokenMissing": "Could not find Token in the provided link.",
+		"noAccountsFoundTitle": "No Accounts Found",
+		"noAccountsFoundDesc": "No game accounts found linked to this account.",
+		"noEndfieldAccountsTitle": "No Endfield Accounts",
+		"noEndfieldAccountsDesc": "No Endfield game accounts found.",
+		"linkProcessFailed": "An error occurred while processing your link.",
+		"invalidUrl": "The provided link is not a valid URL.",
+		"invalidSelection": "Invalid selection.",
+		"invalidSelectionFormat": "Invalid selection format.",
+		"sessionExpiredTitle": "Session Expired",
+		"sessionExpired": "Authentication session expired. Please start over.",
+		"fetchGameAccounts": "Failed to fetch game accounts",
+		"fetchGameAccountsWithReason": "Failed to fetch game accounts: {error}",
+		"addAccountFailed": "An error occurred while adding your account."
 	}
 }

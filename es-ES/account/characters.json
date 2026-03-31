@@ -1,27 +1,12 @@
 {
-	"options": {
-		"user": {
-			"name": "user",
-			"description": "User to check"
-		},
-		"uid": {
-			"name": "uid",
-			"description": "Endfield UID to lookup"
-		}
-	},
 	"messages": {
-		"noAccountFound": "No Account Found",
-		"noAccountFoundDesc": "No account was found for that UID.",
-		"noAccountOwnDesc": "You need to add an account first using `/accounts`.",
-		"noAccountOtherDesc": "{user} doesn't have an account linked.",
-		"thatUser": "That user",
-		"noCharacterData": "No Character Data",
-		"failedToFetchCharacterData": "Failed to fetch character data.",
-		"noCharactersFound": "No Characters Found",
-		"noCharactersDesc": "This account has no characters.",
-		"charactersTitle": "{name}'s Characters",
-		"charactersDesc": "Total Characters: {count}",
-		"footer": "Current Data is incomplete we are currently working on improving it",
-		"failedToFetch": "Failed to fetch characters: \n```{error}```"
+		"noCharacterData": "Sin Datos de Carácter",
+		"failedToFetchCharacterData": "Error al obtener los datos de caracteres.",
+		"noCharactersFound": "No se encontraron personajes",
+		"noCharactersDesc": "Esta cuenta no tiene caracteres.",
+		"charactersTitle": "Caracteres de {name}",
+		"charactersDesc": "Total de caracteres: {count}",
+		"footer": "Los datos actuales están incompletos y actualmente estamos trabajando en mejorarlos",
+		"failedToFetch": "Error al obtener caracteres: \n```{error}```"
 	}
 }

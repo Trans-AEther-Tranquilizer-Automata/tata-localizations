@@ -1,10 +1,4 @@
 {
-	"common": {
-		"unknownServer": "Unknown Server",
-		"unknownUid": "Unknown",
-		"noLinkedAccount": "No linked account",
-		"goBack": "Go Back"
-	},
 	"main": {
 		"title": "// Bot Settings",
 		"description": "Manage your personal bot settings.",

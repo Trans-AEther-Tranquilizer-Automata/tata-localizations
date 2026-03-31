@@ -1,10 +1,1 @@
-{
-	"messages": {
-		"notFound": "Character '{input}' not found",
-		"selectCharacterPlaceholder": "Search for operator...",
-		"team": "Team",
-		"teamGuidance": "Team Guidance",
-		"suggestedRole": "Suggested Role",
-		"teamFit": "Team Fit"
-	}
-}
+{}

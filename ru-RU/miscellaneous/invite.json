@@ -1,6 +1,6 @@
 {
 	"messages": {
-		"title": "🤖 Invite Bot",
+		"title": "{robotEmoji} Invite Bot",
 		"description": "Click the button below to invite this bot to your server!",
 		"buttonLabel": "Invite Bot",
 		"footer": "Thanks for inviting the bot!",

@@ -1,0 +1,10 @@
+{
+	"messages": {
+		"title": "Help Translate Tata",
+		"description": "Want to help improve Tata translations? You can contribute on [Crowdin]({crowdinUrl}) or submit updates in the [tata-localizations repository]({githubUrl}).",
+		"crowdinButton": "Open Crowdin",
+		"githubButton": "View GitHub Repo",
+		"footer": "Every translation contribution helps the community!.",
+		"error": "There was an error processing this command: {error}"
+	}
+}
