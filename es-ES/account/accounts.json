@@ -1,17 +1,8 @@
 {
-	"common": {
-		"unknown": "Desconocido",
-		"unknownServer": "Servidor desconocido",
-		"goBack": "Volver atrás",
-		"errorLoadingAccounts": "Ocurrió un error al vincular tu cuenta.",
-		"errorShowingLoginOptions": "Ocurrió un error mientras se mostraban las opciones de inicio de sesión.",
-		"errorShowingImportOptions": "Ocurrió un error mientras se mostraban las opciones de importación.",
-		"errorShowingMethodDetails": "Se ha producido un error al mostrar los detalles del método."
-	},
 	"overview": {
-		"title": "📧 Administración de cuentas",
+		"title": "{emailEmoji} Account Management",
 		"singleAccountHeader": "**Tu cuenta conectada:**\n\n",
-		"accountLine": "🎮 **{serverName}**\n└UID: `{uid}`\n\n",
+		"accountLine": "{gamepadEmoji} **{serverName}**\n└ UID: `{uid}`\n\n",
 		"maxAccountReached": "Ha alcanzado el límite máximo de cuenta (1 cuenta).",
 		"noAccounts": "You don't have any accounts connected yet. Click the button below to add one.\nBe sure you connected your gryphline account on [skport.com](https://skport.com) to fetch your game accounts!",
 		"footer": "Puedes vincular una cuenta de juego (ya sea Asia o servidor EU/NA)",
@@ -19,19 +10,19 @@
 		"removeButton": "Remover Cuenta"
 	},
 	"loginMethod": {
-		"title": "🔐 Seleccionar método de acceso",
+		"title": "{lockEmoji} Select Login Method",
 		"description": "Elige cómo quieres autenticar:\n\n**Skport** - Cuenta completa vinculada con el acceso a todas las características\n**Historial de cacería** - Importar solo tu historial de deseos e información básica de tu cuenta",
 		"skportButton": "Skport",
 		"headhuntingButton": "Historial de cacería"
 	},
 	"skport": {
-		"title": "🔗 Vincula tu cuenta de Skport",
+		"title": "{linkEmoji} Link Your Skport Account",
 		"description": "Al vincular tu cuenta Skport, obtendrás acceso a:\n\n1. **Accede a la información de tu juego en tiempo real**\n2. **Accede a la información de tu nave espacial**\n3. **Capacidad para reclamar tus recompensas de Check-in diarias de discord**\n4. **Accede a tu historial de búsqueda de cabezas desde tu cuenta**\n\nElige tu método de registro preferido:",
 		"registerViaLogin": "Registrarse a través",
 		"registerUsingToken": "Registrarse usando Token"
 	},
 	"wishHistory": {
-		"title": "🎯 Importación del Historial de Búsqueda de Cabezas",
+		"title": "{targetEmoji} Headhunting History Import",
 		"description": "**Solo se importará tu historial de cacería.** La información básica de tu cuenta estará disponible.\n\nElige tu plataforma para empezar:",
 		"platform": {
 			"windows": "Windows",
@@ -60,12 +51,12 @@
 		}
 	},
 	"tokenInstructions": {
-		"title": "🔑 Cómo obtener tu token de cuenta",
+		"title": "{keyEmoji} How to Get Your Account Token",
 		"description": "> Para iniciar sesión en tu cuenta de skport\nhttps://www.skport. om/\n\n> Una vez iniciado sesión, abra las herramientas de desarrollo usando F12 en su teclado\n\n> En las pestañas, seleccione la que dice la pestaña Aplicación o la pestaña de almacenamiento en navegadores específicos\n\n> En el lado izquierdo, seleccione cookies y haga clic en el sitio web para ver todas las cookies de su sitio\n\n> Luego haga clic en la que dice ACCOUNT_TOKEN y haga clic en la URL inferior que se muestra decodificada y luego copie el token",
 		"pasteButton": "Pegar token"
 	},
 	"platform": {
-		"methodTitle": "📋 {method} Method - {platform}",
+		"methodTitle": "{clipboardEmoji} {method} Method - {platform}",
 		"sourceFooter": "Fuente: Endfieldtools.dev",
 		"button": {
 			"pc": "PC",
@@ -76,33 +67,33 @@
 		}
 	},
 	"serverSelection": {
-		"title": "🎮 Seleccionar Servidor",
+		"title": "{gamepadEmoji} Select Server",
 		"description": "Elige qué cuenta de juego quieres enlazar:",
 		"placeholder": "Elige tu cuenta de juego...",
 		"optionDescription": "UID: {uid} | Nivel {level}"
 	},
 	"accountAdded": {
 		"title": "{statusYes} Cuenta añadida correctamente",
-		"description": "**Servidor:** {serverName}\n**UID:** `{uid}`\n\n🔒 Tus credenciales se almacenan de forma segura y encriptadas.{extra}",
-		"autoImportNote": "\n\n🎯 Your Headhunting History is being imported automatically."
+		"description": "**Server:** {serverName}\n**UID:** `{uid}`\n\n{lockEmoji} Your credentials are stored securely and encrypted.{extra}",
+		"autoImportNote": "\n\n{targetEmoji} Your Headhunting History is being imported automatically."
 	},
 	"remove": {
-		"selectDisconnectTitle": "🔌 Seleccionar cuenta para desconectar",
-		"selectDeleteTitle": "🗑️ Seleccione la cuenta a eliminar",
+		"selectDisconnectTitle": "{plugEmoji} Select Account to Disconnect",
+		"selectDeleteTitle": "{trashEmoji} Select Account to Delete",
 		"selectDisconnectDescription": "Elegir qué cuenta desconectar (se eliminarán las credenciales y los ajustes):",
 		"selectDeleteDescription": "Elija qué cuenta borrar completamente:",
 		"selectPlaceholder": "Remover Cuenta...",
 		"optionDescription": "UID: {uid}",
 		"disconnectedTitle": "{statusYes} Account Disconnected",
-		"disconnectedDescription": "Your account credentials have been removed.\n\n**✨ Preserved:**\n• Daily claim settings\n• Notification preferences\n• Account configuration\n\n**🔄 To reconnect:** Use `/reauth` to add your credentials back!",
+		"disconnectedDescription": "Your account credentials have been removed.\n\n**{sparkleEmoji} Preserved:**\n• Daily claim settings\n• Notification preferences\n• Account configuration\n\n**{refreshEmoji} To reconnect:** Use `/reauth` to add your credentials back!",
 		"disconnectError": "An error occurred while disconnecting your account.",
-		"deletedTitle": "🗑️ Account Deleted",
-		"deletedDescription": "Your account has been completely removed from this bot.\n\n**🗑️ Deleted:**\n• All credentials\n• Daily claim settings\n• Notification preferences\n• All account data\n\n**Note:** Your game account on the servers is unchanged.\nUse `/accounts` to add it again if needed.",
+		"deletedTitle": "{trashEmoji} Account Deleted",
+		"deletedDescription": "Your account has been completely removed from this bot.\n\n**{trashEmoji} Deleted:**\n• All credentials\n• Daily claim settings\n• Notification preferences\n• All account data\n\n**Note:** Your game account on the servers is unchanged.\nUse `/accounts` to add it again if needed.",
 		"deleteError": "An error occurred while deleting your account.",
 		"noAccountsTitle": "{statusNo} No Accounts",
 		"noAccountsDescription": "You don't have any accounts to remove.",
-		"chooseActionTitle": "🔌 Disconnect or Delete Account",
-		"chooseActionDescription": "Choose how you want to handle your account:\n\n**🔌 Disconnect** - Remove credentials only\n• Keeps your daily claim settings\n• Keeps notification preferences\n• Can reconnect later with `/reauth`\n\n**🗑️ Delete** - Complete removal\n• Deletes all bot data\n• Removes all settings\n• Must use `/accounts` to add again",
+		"chooseActionTitle": "{plugEmoji} Disconnect or Delete Account",
+		"chooseActionDescription": "Choose how you want to handle your account:\n\n**{plugEmoji} Disconnect** - Remove credentials only\n• Keeps your daily claim settings\n• Keeps notification preferences\n• Can reconnect later with `/reauth`\n\n**{trashEmoji} Delete** - Complete removal\n• Deletes all bot data\n• Removes all settings\n• Must use `/accounts` to add again",
 		"chooseActionPlaceholder": "Choose an action...",
 		"disconnectOptionLabel": "Disconnect Account",
 		"disconnectOptionDescription": "Remove credentials, keep settings",
