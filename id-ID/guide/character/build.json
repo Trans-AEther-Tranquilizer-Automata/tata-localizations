@@ -1,14 +1,1 @@
-{
-	"messages": {
-		"notFound": "Character '{input}' not found",
-		"selectCharacterPlaceholder": "Search for operator...",
-		"buildGuide": "Build Guide",
-		"bestWeapon": "Best Weapon(s)",
-		"secondaryWeapon": "Secondary Weapon(s)",
-		"bestGear": "Best Gear Set",
-		"secondGear": "Second Best Gear Set",
-		"thirdGear": "Third Best Gear Set",
-		"notes": "Notes",
-		"talentPriority": "Talent Priority"
-	}
-}
+{}
