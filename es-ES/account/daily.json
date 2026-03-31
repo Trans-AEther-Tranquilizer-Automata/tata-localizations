@@ -7,22 +7,22 @@
 		"calendar": "Calendario"
 	},
 	"command": {
-		"title": "{calendarEmoji} Daily Sign-in | Endfield",
+		"title": "📅 Inicio de sesión diario | Endfield",
 		"descriptionTemplate": "Reclama tu diario de inicio de sesión!\\n\\n**{notificationsLabel}:** `{notificationsStatus}`\\n**{autoClaimLabel}:** `{autoClaimStatus}`\\n**{progressLabel}:** {claimed}/{total} {daysLabel}\\n\\n**{calendarLabel}:**\\n{calendarRows}",
-		"todayRewardField": "{packageEmoji} Today's Reward",
+		"todayRewardField": "📦 Recompensa de hoy",
 		"todayRewardValue": "**{name}** x{count}",
 		"claimButton": "Reclamar recompensa diaria",
 		"testNotificationButton": "Notificación de prueba"
 	},
 	"claims": {
-		"successTitle": "{partyEmoji} Daily Reward Claimed!",
+		"successTitle": "🎉 ¡Recompensa Diaria!",
 		"progressLine": "**Progreso:** {completed}/{total} días completados",
 		"claimedTodayField": "Se reclamó hoy",
 		"tomorrowRewardField": "Recompensa de mañana",
 		"footer": "Las recompensas se enviarán a tu correo dentro del juego dentro de 24 horas"
 	},
 	"notifications": {
-		"testTitle": "{giftEmoji} Daily Sign-In Reminder",
+		"testTitle": "🎁 Recordatorio diario de inicio de sesión",
 		"testBody": "This is a test notification!\\n\\nYou would receive this notification when your daily sign-in reward is available.\\n\\nUse `/daily` to check and claim your rewards.",
 		"sentTitle": "Notificación de Prueba Enviada",
 		"sentBody": "¡Comprueba tus DMs para la notificación de prueba!",
@@ -34,6 +34,6 @@
 		"noAccountLinked": "No tienes una cuenta vinculada. Por favor, vincula tu cuenta primero.",
 		"failedToFetchAttendance": "Error al recuperar los datos de asistencia. Inténtalo de nuevo más tarde.",
 		"claimFailed": "Error al reclamar la recompensa diaria.",
-		"accountNotFound": "No Account Found"
+		"accountNotFound": "No se encontraron cuentas"
 	}
 }
