@@ -1,10 +1,4 @@
 {
-	"common": {
-		"unknownServer": "Servidor desconocido",
-		"unknownUid": "Desconocido",
-		"noLinkedAccount": "Sin cuentas vinculadas",
-		"goBack": "Volver atrás"
-	},
 	"main": {
 		"title": "// Ajustes del bot",
 		"description": "Administra tus ajustes personales del bot.",
