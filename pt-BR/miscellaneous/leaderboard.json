@@ -1,11 +1,11 @@
 {
 	"messages": {
-		"title": "🏆 Headhunting Leaderboard",
+		"title": "{trophyEmoji} Headhunting Leaderboard",
 		"selectMenuPlaceholder": "Select a leaderboard",
 		"wishesOption": {
 			"label": "Headhunting",
 			"description": "View Headhunting leaderboard",
-			"emoji": "🎯"
+			"emoji": "{targetEmoji}"
 		},
 		"rankFormat": "{rank}. {wishes} Headhunting | {username}",
 		"noEntriesDescription": "No entries found.",
