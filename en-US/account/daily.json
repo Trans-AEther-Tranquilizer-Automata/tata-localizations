@@ -1,12 +1,4 @@
 {
-	"common": {
-		"enabled": "Enabled ✅",
-		"disabled": "Disabled ❌",
-		"enable": "Enable",
-		"disable": "Disable",
-		"none": "None",
-		"unknown": "Unknown"
-	},
 	"labels": {
 		"notifications": "Notifications",
 		"autoClaim": "Daily Auto-Claim",
@@ -15,22 +7,22 @@
 		"calendar": "Calendar"
 	},
 	"command": {
-		"title": "📅 Daily Sign-in | Endfield",
+		"title": "{calendarEmoji} Daily Sign-in | Endfield",
 		"descriptionTemplate": "Claim your daily sign-in rewards!\n\n**{notificationsLabel}:** `{notificationsStatus}`\n**{autoClaimLabel}:** `{autoClaimStatus}`\n**{progressLabel}:** {claimed}/{total} {daysLabel}\n\n**{calendarLabel}:**\n{calendarRows}",
-		"todayRewardField": "📦 Today's Reward",
+		"todayRewardField": "{packageEmoji} Today's Reward",
 		"todayRewardValue": "**{name}** x{count}",
 		"claimButton": "Claim Daily Reward",
 		"testNotificationButton": "Test Notification"
 	},
 	"claims": {
-		"successTitle": "🎉 Daily Reward Claimed!",
+		"successTitle": "{partyEmoji} Daily Reward Claimed!",
 		"progressLine": "**Progress:** {completed}/{total} days completed",
 		"claimedTodayField": "Claimed Today",
 		"tomorrowRewardField": "Tomorrow's Reward",
 		"footer": "Rewards will be sent to your in-game mail within 24 hours"
 	},
 	"notifications": {
-		"testTitle": "🎁 Daily Sign-In Reminder",
+		"testTitle": "{giftEmoji} Daily Sign-In Reminder",
 		"testBody": "This is a test notification!\n\nYou would receive this notification when your daily sign-in reward is available.\n\nUse `/daily` to check and claim your rewards.",
 		"sentTitle": "Test Notification Sent",
 		"sentBody": "Check your DMs for the test notification!",
@@ -42,6 +34,6 @@
 		"noAccountLinked": "You don't have an account linked. Please link your account first.",
 		"failedToFetchAttendance": "Failed to fetch attendance data. Please try again later.",
 		"claimFailed": "Failed to claim daily reward.",
-		"accountNotFound": "No account found"
+		"accountNotFound": "No Account Found"
 	}
 }
