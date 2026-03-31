@@ -1,10 +1,5 @@
 {
 	"messages": {
-		"noAccountFound": "No se encontró ninguna cuenta",
-		"noAccountFoundDesc": "No se ha encontrado ninguna cuenta para esa UID.",
-		"noAccountOwnDesc": "Necesitas añadir primero una cuenta usando `/accounts`.",
-		"noAccountOtherDesc": "{user} no tiene una cuenta vinculada.",
-		"thatUser": "Ese usuario",
 		"noCharacterData": "Sin Datos de Carácter",
 		"failedToFetchCharacterData": "Error al obtener los datos de caracteres.",
 		"noCharactersFound": "No se encontraron personajes",
