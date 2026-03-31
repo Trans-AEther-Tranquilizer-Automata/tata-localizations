@@ -1,10 +1,5 @@
 {
 	"messages": {
-		"noAccountFound": "No Account Found",
-		"noAccountFoundDesc": "No account was found for that UID.",
-		"noAccountOwnDesc": "You need to add an account first using `/accounts`.",
-		"noAccountOtherDesc": "{user} doesn't have an account linked.",
-		"thatUser": "That user",
 		"noCharacterData": "No Character Data",
 		"failedToFetchCharacterData": "Failed to fetch character data.",
 		"noCharactersFound": "No Characters Found",
