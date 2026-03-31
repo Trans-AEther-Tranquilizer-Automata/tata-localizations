@@ -1,8 +1,1 @@
-{
-	"messages": {
-		"notFound": "Character '{input}' not found",
-		"selectCharacterPlaceholder": "Search for operator...",
-		"introduction": "Introduction",
-		"characterOverview": "Character Overview"
-	}
-}
+{}
