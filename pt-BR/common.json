@@ -1,0 +1,26 @@
+{
+	"common": {
+		"error": "Error",
+		"unknown": "Unknown",
+		"none": "None",
+		"goBack": "Go Back",
+		"enable": "Enable",
+		"disable": "Disable",
+		"enabled": "Enabled {checkEmoji}",
+		"disabled": "Disabled {crossEmoji}",
+		"unknownServer": "Unknown Server",
+		"unknownUid": "Unknown",
+		"noLinkedAccount": "No linked account",
+		"noAccountFound": "No Account Found",
+		"noAccountFoundForUid": "No account was found for that UID.",
+		"accountRequiredUseAccounts": "You need to add an account first using `/accounts`.",
+		"otherUserNoLinkedAccount": "{username} doesn't have an account linked.",
+		"thatUser": "That user",
+		"errorLoadingAccounts": "An error occurred while loading your accounts.",
+		"errorShowingLoginOptions": "An error occurred while showing login options.",
+		"errorShowingImportOptions": "An error occurred while showing import options.",
+		"errorShowingMethodDetails": "An error occurred while showing method details.",
+		"characterNotFound": "Character '{input}' not found",
+		"operatorSearchPlaceholder": "Search for operator..."
+	}
+}
