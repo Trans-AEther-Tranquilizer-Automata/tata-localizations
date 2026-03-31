@@ -1,7 +1,5 @@
 {
 	"messages": {
-		"noAccountFound": "No se encontró ninguna cuenta",
-		"noAccountDesc": "Necesitas añadir primero una cuenta usando `/accounts`.",
 		"title": "Exploración",
 		"noRegions": "No hay regiones desbloqueadas aún.",
 		"noLevelsAvailable": "No hay niveles disponibles.",
