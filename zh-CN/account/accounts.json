@@ -1,8 +1,8 @@
 {
 	"overview": {
-		"title": "{emailEmoji} Account Management",
+		"title": "📧 Account Management",
 		"singleAccountHeader": "**Your Connected Account:**\n\n",
-		"accountLine": "{gamepadEmoji} **{serverName}**\n└ UID: `{uid}`\n\n",
+		"accountLine": "🎮 **{serverName}**\n└ UID: `{uid}`\n\n",
 		"maxAccountReached": "You have reached the maximum account limit (1 account).",
 		"noAccounts": "You don't have any accounts connected yet. Click the button below to add one.\nBe sure you connected your gryphline account on [skport.com](https://skport.com) to fetch your game accounts!",
 		"footer": "You can link one game account (either Asia or EU/NA server)",
@@ -10,19 +10,19 @@
 		"removeButton": "Remove Account"
 	},
 	"loginMethod": {
-		"title": "{lockEmoji} Select Login Method",
+		"title": "🔐 Select Login Method",
 		"description": "Choose how you want to authenticate:\n\n**Skport** - Full account linking with access to all features\n**Headhunting History** - Import only your wish history and basic account info",
 		"skportButton": "Skport",
 		"headhuntingButton": "Headhunting History"
 	},
 	"skport": {
-		"title": "{linkEmoji} Link Your Skport Account",
+		"title": "🔗 Link Your Skport Account",
 		"description": "By linking your Skport account, you'll get access to:\n\n1. **Access to your ingame information in real time**\n2. **Access to your ingame spaceship information**\n3. **Ability to claim your Daily Check-in rewards from discord**\n4. **Access your Headhunting History Straight from your account**\n\nChoose your preferred registration method:",
 		"registerViaLogin": "Register Via Login",
 		"registerUsingToken": "Register Using Token"
 	},
 	"wishHistory": {
-		"title": "{targetEmoji} Headhunting History Import",
+		"title": "🎯 Headhunting History Import",
 		"description": "**Only your Headhunting History will be imported.** Basic information from your account will be available.\n\nChoose your platform to get started:",
 		"platform": {
 			"windows": "Windows",
@@ -51,12 +51,12 @@
 		}
 	},
 	"tokenInstructions": {
-		"title": "{keyEmoji} How to Get Your Account Token",
+		"title": "🔑 How to Get Your Account Token",
 		"description": "> To begin login to your skport account\nhttps://www.skport.com/\n\n> Once logged in open the dev tools using F12 on your keyboard\n\n> On the tabs, select the one that says Application tab or storage tab on specific browsers\n\n> On the left hand side, select cookies and click on the website to view all your site cookies\n\n> Then click on the one that says ACCOUNT_TOKEN and click on the bottom show URL decoded and then copy the token",
 		"pasteButton": "Paste Token"
 	},
 	"platform": {
-		"methodTitle": "{clipboardEmoji} {method} Method - {platform}",
+		"methodTitle": "📋 {method} Method - {platform}",
 		"sourceFooter": "Source: Endfieldtools.dev",
 		"button": {
 			"pc": "PC",
@@ -67,33 +67,33 @@
 		}
 	},
 	"serverSelection": {
-		"title": "{gamepadEmoji} Select Server",
+		"title": "🎮 Select Server",
 		"description": "Choose which game account you want to link:",
 		"placeholder": "Choose your game account...",
 		"optionDescription": "UID: {uid} | Level {level}"
 	},
 	"accountAdded": {
 		"title": "{statusYes} Account Added Successfully",
-		"description": "**Server:** {serverName}\n**UID:** `{uid}`\n\n{lockEmoji} Your credentials are stored securely and encrypted.{extra}",
-		"autoImportNote": "\n\n{targetEmoji} Your Headhunting History is being imported automatically."
+		"description": "**Server:** {serverName}\n**UID:** `{uid}`\n\n🔒 Your credentials are stored securely and encrypted.{extra}",
+		"autoImportNote": "\n\n🎯 Your Headhunting History is being imported automatically."
 	},
 	"remove": {
-		"selectDisconnectTitle": "{plugEmoji} Select Account to Disconnect",
-		"selectDeleteTitle": "{trashEmoji} Select Account to Delete",
+		"selectDisconnectTitle": "🔌 Select Account to Disconnect",
+		"selectDeleteTitle": "🗑️ Select Account to Delete",
 		"selectDisconnectDescription": "Choose which account to disconnect (credentials will be removed, settings kept):",
 		"selectDeleteDescription": "Choose which account to delete completely:",
 		"selectPlaceholder": "Choose account...",
 		"optionDescription": "UID: {uid}",
 		"disconnectedTitle": "{statusYes} Account Disconnected",
-		"disconnectedDescription": "Your account credentials have been removed.\n\n**{sparkleEmoji} Preserved:**\n• Daily claim settings\n• Notification preferences\n• Account configuration\n\n**{refreshEmoji} To reconnect:** Use `/reauth` to add your credentials back!",
+		"disconnectedDescription": "Your account credentials have been removed.\n\n**✨ Preserved:**\n• Daily claim settings\n• Notification preferences\n• Account configuration\n\n**🔄 To reconnect:** Use `/reauth` to add your credentials back!",
 		"disconnectError": "An error occurred while disconnecting your account.",
-		"deletedTitle": "{trashEmoji} Account Deleted",
-		"deletedDescription": "Your account has been completely removed from this bot.\n\n**{trashEmoji} Deleted:**\n• All credentials\n• Daily claim settings\n• Notification preferences\n• All account data\n\n**Note:** Your game account on the servers is unchanged.\nUse `/accounts` to add it again if needed.",
+		"deletedTitle": "🗑️ Account Deleted",
+		"deletedDescription": "Your account has been completely removed from this bot.\n\n**🗑️ Deleted:**\n• All credentials\n• Daily claim settings\n• Notification preferences\n• All account data\n\n**Note:** Your game account on the servers is unchanged.\nUse `/accounts` to add it again if needed.",
 		"deleteError": "An error occurred while deleting your account.",
 		"noAccountsTitle": "{statusNo} No Accounts",
 		"noAccountsDescription": "You don't have any accounts to remove.",
-		"chooseActionTitle": "{plugEmoji} Disconnect or Delete Account",
-		"chooseActionDescription": "Choose how you want to handle your account:\n\n**{plugEmoji} Disconnect** - Remove credentials only\n• Keeps your daily claim settings\n• Keeps notification preferences\n• Can reconnect later with `/reauth`\n\n**{trashEmoji} Delete** - Complete removal\n• Deletes all bot data\n• Removes all settings\n• Must use `/accounts` to add again",
+		"chooseActionTitle": "🔌 Disconnect or Delete Account",
+		"chooseActionDescription": "Choose how you want to handle your account:\n\n**🔌 Disconnect** - Remove credentials only\n• Keeps your daily claim settings\n• Keeps notification preferences\n• Can reconnect later with `/reauth`\n\n**🗑️ Delete** - Complete removal\n• Deletes all bot data\n• Removes all settings\n• Must use `/accounts` to add again",
 		"chooseActionPlaceholder": "Choose an action...",
 		"disconnectOptionLabel": "Disconnect Account",
 		"disconnectOptionDescription": "Remove credentials, keep settings",
