@@ -1,0 +1,19 @@
+{
+	"messages": {
+		"title": "Memory Game",
+		"description": "Flip cards on the 4x4 grid and match every pair. Mismatched cards flip back.",
+		"progress": "Progress",
+		"progressValue": "{matchedPairs}/{totalPairs} pairs",
+		"time": "Time",
+		"winTitle": "{statusYes} Memory Game Cleared",
+		"winDescription": "You matched all {totalPairs} pairs in {elapsedTime}.",
+		"mismatchTitle": "{statusNo} No Match",
+		"mismatchDescription": "Those two cards do not match. Try another pair.",
+		"errorTitle": "{statusNo} Error",
+		"startFailed": "Failed to start the memory game right now. Please try again in a moment.",
+		"sessionExpired": "This memory game session has expired. Use /memory-game to start a new run."
+	},
+	"buttons": {
+		"retry": "Retry"
+	}
+}
