@@ -37,6 +37,22 @@
 		"weaponsValue": "**6{rarity6Emoji} Weapons:** `{totalSixStarWeapons}`\n**Latest:** {latestWeapon}\n\n**The Last 6{rarity6Emoji} Weapons**\n{lastFiveWeapons}",
 		"footer": "These statistics are subject to change"
 	},
+	"viewMode": {
+		"textLabel": "Text View",
+		"infographicLabel": "Infographic",
+		"infographicTitle": "Headhunting Infographic",
+		"infographicDescription": "Visual summary for {username}'s Headhunting history.",
+		"infographicHeader": "Headhunting Statistics",
+		"recentSixCharactersLabel": "Recent 6-Star Characters",
+		"totalPullsCard": "Total Pulls",
+		"costCard": "Worth {cost} Oroberyl",
+		"fiveStarCard": "5-Star Stats",
+		"fiveStarSub": "Total {count} | Avg Pity {avg}",
+		"sixStarCard": "6-Star Stats",
+		"sixStarSub": "Total {count} | Avg Pity {avg}",
+		"characterSixStarCard": "6-Star Characters",
+		"weaponSixStarCard": "6-Star Weapons"
+	},
 	"list": {
 		"title": "{bannerName} Wishes",
 		"empty": "No wishes found for this banner.",
