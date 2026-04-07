@@ -1,0 +1,17 @@
+{
+	"fallback": {
+		"unknownError": "Unknown error"
+	},
+	"messages": {
+		"noAccountSelf": "You need to add an account first using `/accounts`.",
+		"noDataSelf": "You have not imported your Headhunting data yet. Use `/wishes-import` first.",
+		"successTitle": "{statusYes} Wishes Exported",
+		"successDescription": "Exported `{totalWishes}` wishes for **{username}** in `{fileName}`."
+	},
+	"errors": {
+		"noAccountTitle": "{statusNo} No Account Found",
+		"noDataTitle": "{statusNo} No Headhunting Data Found",
+		"genericTitle": "{statusNo} Error",
+		"processCommand": "Failed to export wishes: {error}"
+	}
+}
