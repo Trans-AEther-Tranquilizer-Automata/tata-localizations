@@ -9,7 +9,6 @@
 		"enabled": "Enabled {checkEmoji}",
 		"disabled": "Disabled {crossEmoji}",
 		"unknownServer": "Unknown Server",
-		"unknownUid": "Unknown",
 		"noLinkedAccount": "No linked account",
 		"noAccountFound": "No Account Found",
 		"noAccountFoundForUid": "No account was found for that UID.",
