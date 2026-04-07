@@ -9,7 +9,6 @@
 		"enabled": "Activado {checkEmoji}",
 		"disabled": "Desactivado {crossEmoji}",
 		"unknownServer": "Servidor desconocido",
-		"unknownUid": "Desconocido",
 		"noLinkedAccount": "No hay cuenta vinculada",
 		"noAccountFound": "No se encontraron cuentas",
 		"noAccountFoundForUid": "No se ha encontrado ninguna cuenta para esa UID.",
