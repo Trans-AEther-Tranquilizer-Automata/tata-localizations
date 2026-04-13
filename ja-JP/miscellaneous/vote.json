@@ -1,0 +1,10 @@
+{
+	"messages": {
+		"title": "Vote for Tata",
+		"description": "Support Tata by voting on top.gg and earn rewards for voting.\n\nYou can vote once every **{hours} hours**.",
+		"buttonLabel": "Vote on top.gg",
+		"footer": "Thanks for supporting Tata!",
+		"errorTitle": "Vote Error",
+		"error": "Failed to show vote link. ({error})"
+	}
+}
