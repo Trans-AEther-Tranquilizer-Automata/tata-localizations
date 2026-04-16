@@ -4,10 +4,14 @@
 		"selectMenuPlaceholder": "Select a leaderboard",
 		"wishesOption": {
 			"label": "Headhunting",
-			"description": "View Headhunting leaderboard",
-			"emoji": "{targetEmoji}"
+			"description": "View Headhunting leaderboard"
+		},
+		"achievementsOption": {
+			"label": "Achievements",
+			"description": "View achievements leaderboard"
 		},
 		"rankFormat": "{rank}. {wishes} Headhunting | {username}",
+		"rankFormatAchievements": "{rank}. {achievements} Achievements | {username}",
 		"noEntriesDescription": "No entries found.",
 		"noDataDescription": "No leaderboard data available yet. Import your wishes to get started!",
 		"pagination": "Page {page}/{totalPages}",
