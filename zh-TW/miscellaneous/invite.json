@@ -1,9 +1,9 @@
 {
 	"messages": {
-		"title": "{robotEmoji} Invite Bot",
-		"description": "Click the button below to invite this bot to your server!",
-		"buttonLabel": "Invite Bot",
-		"footer": "Thanks for inviting the bot!",
+		"title": "// Invite Tata to Your Server",
+		"description": "Click the button below to invite Tata to your server!",
+		"buttonLabel": "Invite Tata",
+		"footer": "Thanks for inviting Tata!",
 		"error": "There was an error processing this command: {error}"
 	}
 }

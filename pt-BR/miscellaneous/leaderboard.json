@@ -4,8 +4,11 @@
 		"selectMenuPlaceholder": "Select a leaderboard",
 		"wishesOption": {
 			"label": "Headhunting",
-			"description": "View Headhunting leaderboard",
-			"emoji": "{targetEmoji}"
+			"description": "View Headhunting leaderboard"
+		},
+		"achievementsOption": {
+			"label": "Achievements",
+			"description": "View achievements leaderboard"
 		},
 		"achievementsOption": {
 			"label": "Achievements",

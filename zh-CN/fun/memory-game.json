@@ -1,0 +1,19 @@
+{
+	"messages": {
+		"title": "内存游戏",
+		"description": "在 4x4 格子上翻转卡片并匹配每对。不匹配的卡片回翻。",
+		"progress": "进度",
+		"progressValue": "{matchedPairs}/{totalPairs} pairs",
+		"time": "管理时间数据",
+		"winTitle": "{statusYes} Memory Game Cleared",
+		"winDescription": "You matched all {totalPairs} pairs in {elapsedTime}.",
+		"mismatchTitle": "{statusNo} No Match",
+		"mismatchDescription": "这两张卡片不匹配。请尝试另一张对。",
+		"errorTitle": "{statusNo} Error",
+		"startFailed": "现在无法启动内存游戏。请稍后再试。",
+		"sessionExpired": "此记忆游戏会话已过期。使用 /memory-game 开始新的游戏。"
+	},
+	"buttons": {
+		"retry": "重试"
+	}
+}

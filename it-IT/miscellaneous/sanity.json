@@ -20,6 +20,12 @@
 		"reminderSetFooter": "You will receive a DM when your sanity reaches the target amount",
 		"reminderSetFooterStamina": "You will receive a DM when your stamina reaches the target amount",
 		"failedSetReminder": "Failed to set reminder: \n```{errorMessage}```",
-		"failedSetReminderSimple": "Failed to set reminder: {errorMessage}"
+		"failedSetReminderSimple": "Failed to set reminder: {errorMessage}",
+		"autoEnabledTitle": "{alarmEmoji} Auto Full Sanity Check Enabled",
+		"autoEnabledDesc": "Hourly checks are enabled. Tata will check once per hour, and if your sanity is below **{threshold}%**, it will set a reminder for when your sanity is full.",
+		"autoEnabledPausedDesc": "Hourly checks are enabled, but currently paused because you already have an active sanity reminder. Checks resume automatically once that reminder is fulfilled.",
+		"autoEnabledFooter": "Auto checks pause while a sanity reminder is active and resume after it is sent.",
+		"autoDisabledTitle": "{crossEmoji} Auto Full Sanity Check Disabled",
+		"autoDisabledDesc": "Hourly auto checks have been disabled. You can still set manual reminders with `/sanity <amount>`."
 	}
 }
