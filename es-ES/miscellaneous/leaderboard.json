@@ -10,10 +10,6 @@
 			"label": "Achievements",
 			"description": "View achievements leaderboard"
 		},
-		"achievementsOption": {
-			"label": "Achievements",
-			"description": "View achievements leaderboard"
-		},
 		"rankFormat": "{rank}. {wishes} Headhunting | {username}",
 		"rankFormatAchievements": "{rank}. {achievements} Achievements | {username}",
 		"noEntriesDescription": "No entries found.",
