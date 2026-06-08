@@ -1,10 +1,10 @@
 {
 	"messages": {
-		"noAccountsFound": "No Accounts Found",
-		"noAccountsDesc": "You don't have any accounts connected. Use `/accounts` to add one first.",
-		"title": "{refreshEmoji} Re-authenticate Account",
+		"noAccountsFound": "No se encontraron cuentas",
+		"noAccountsDesc": "No tienes ninguna cuenta conectada. Usa `/accounts` para añadir una primero.",
+		"title": "Cuenta de re-autenticación {refreshEmoji}",
 		"description": "Re-authentication allows you to update your account credentials without losing your bot data.\n\n**When to use this:**\n• Your token/credentials have expired\n• You changed your password on the game website\n• You're experiencing authentication errors\n\n**What it does:**\n• Updates your stored credentials\n• Keeps your daily claim settings\n• Preserves your notification preferences\n\nChoose your account below to re-authenticate:",
-		"accountsHeader": "**Your Connected Accounts:**",
+		"accountsHeader": "**Tu cuenta conectada:**",
 		"connectedAccountLine": "{gamepadEmoji} **{serverName}**\n└ UID: `{uid}`\n\n",
 		"reAuthButtonLabel": "Re-auth {serverName}",
 		"methodChoiceTitle": "{refreshEmoji} Choose Re-authentication Method",
