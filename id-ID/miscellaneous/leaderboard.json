@@ -16,6 +16,12 @@
 		},
 		"rankFormat": "{rank}. {wishes} Headhunting | {username}",
 		"rankFormatAchievements": "{rank}. {achievements} Achievements | {username}",
+    		"contingencyOption": {
+			"label": "Contingency Contract",
+			"description": "View Contingency Contract leaderboard"
+		},
+		"titleContingency": "{trophyEmoji} Contingency Contract Leaderboard",
+		"rankFormatContingency": "{rank}. Risk {risk} | {username}",
 		"noEntriesDescription": "No entries found.",
 		"noDataDescription": "No leaderboard data available yet. Import your wishes to get started!",
 		"pagination": "Page {page}/{totalPages}",
