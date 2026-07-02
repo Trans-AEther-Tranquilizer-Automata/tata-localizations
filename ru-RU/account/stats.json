@@ -49,6 +49,8 @@
 		"noStatsData": "No Stats Data",
 		"failedToFetchStats": "Failed to fetch stats data.",
 		"failedToFetchStatsError": "Failed to fetch stats data: \n```{error}```",
+		"contingencyContract": "Contingency Contract",
+		"contingencyContractValue": "**Best Record:** Risk {highest}\n**Challenge Attempts:** {challengeCount}\n**Test Criteria Missions:** {indicatorCount}/{indicatorTotal}\n**Cycle Missions:** {weeklyCount}/{weeklyTotal}\n**Phase Missions:** {stageCount}/{stageTotal}",
 		"failedToLoadStats": "Failed to load stats: \n```{error}```",
 		"selectViewPlaceholder": "Select a view",
 		"statsOptionLabel": "Stats",
