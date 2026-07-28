@@ -24,7 +24,7 @@
 	"ascensionView": {
 		"header": "## Ascension Materials",
 		"backButton": "Back",
-		"mapButtonsNote": "-# These Buttons link to the interactive map showing where to gather\\n-# these materials if they are gatherable items.",
+		"mapButtonsNote": "-# 这些按钮链接到交互式地图，显示在哪里收集\n- # 这些材料，如果它们是可收集的物品。",
 		"materialCount": "{name} x{count}"
 	},
 	"errors": {
